@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 溫習 App - Quiz Study
 
-## Getting Started
+互動溫習平台，支援多個題庫，題目儲存在 Supabase。
 
-First, run the development server:
+## 功能
+
+- ✅ 選擇題庫開始溫習
+- ✅ 自選要做嘅題數
+- ✅ 題目及選項隨機排序
+- ✅ 作答後即時顯示正確答案及解釋
+- ✅ 完成後檢視全部答案
+- ✅ 重新開始
+- ✅ 可在 Supabase Visual Editor 直接編輯題目
+
+## 技術
+
+- **Next.js** (App Router)
+- **Tailwind CSS**
+- **Supabase** (PostgreSQL + REST API)
+
+## 設定
+
+### 1. 建立資料表
+
+去 Supabase Dashboard → **SQL Editor** → 貼上執行 `supabase-schema.sql`
+
+### 2. 匯入題目
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 先用 anon key import（如果冇 set service_role key）
+# 或去 Supabase Dashboard - Table Editor 直接匯入
+python3 scripts/import-quiz.py 題庫.json "P5 通識科學題庫 01"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> 需要設定環境變數 `SUPABASE_SERVICE_KEY`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. 環境變數
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`NEXT_PUBLIC_SUPABASE_URL` 同 `NEXT_PUBLIC_SUPABASE_ANON_KEY` 已在 `.env.local` 設定。
 
-## Learn More
+### 4. 部署到 Vercel
 
-To learn more about Next.js, take a look at the following resources:
+Push 上 GitHub 後，喺 Vercel 設定環境變數：
+- `NEXT_PUBLIC_SUPABASE_URL`
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 在 Supabase 編輯題目
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Supabase Dashboard → **Table Editor** → 選擇 `questions` 或 `answer_options` 表 → 直接按 cell 修改內容。
 
-## Deploy on Vercel
+## 本地開發
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm install
+npm run dev
+```
