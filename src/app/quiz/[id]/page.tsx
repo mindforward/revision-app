@@ -3,6 +3,7 @@
 import { useParams, useRouter } from 'next/navigation'
 import { useEffect, useState, useCallback } from 'react'
 import { supabase, QuestionWithOptions, QuizBank } from '@/lib/supabase'
+import MathText from '@/components/MathText'
 
 type UserAnswer = {
   questionId: string
@@ -157,11 +158,11 @@ export default function QuizPage() {
             {questions.map((q, i) => {
               const userAns = answers[i]
               return (
-                <div key={q.id} className={`bg-white rounded-2xl p-5 border-2 shadow-sm ${
+                  <div key={q.id} className={`bg-white rounded-2xl p-5 border-2 shadow-sm ${
                   userAns?.isCorrect ? 'border-green-300' : 'border-red-300'
                 }`}>
                   <p className="text-sm text-gray-400 mb-1">第 {i + 1} 題</p>
-                  <p className="text-gray-800 text-lg mb-3">{q.question_text}</p>
+                  <MathText className="text-gray-800 text-lg mb-3" text={q.question_text} />
                   <div className="space-y-2">
                     {q.answer_options.map(opt => {
                       const isUserChoice = opt.id === userAns?.selectedOptionId
@@ -175,7 +176,7 @@ export default function QuizPage() {
                             {opt.is_correct && <span className="text-green-600 shrink-0">✅</span>}
                             {isUserChoice && !opt.is_correct && <span className="text-red-600 shrink-0">❌</span>}
                             <div>
-                              <p className={opt.is_correct ? 'font-medium text-green-800' : ''}>{opt.text}</p>
+                              <MathText className={opt.is_correct ? 'font-medium text-green-800' : ''} text={opt.text} />
                               {opt.rationale && (
                                 <p className="text-xs text-gray-500 mt-1">{opt.rationale}</p>
                               )}
@@ -216,7 +217,7 @@ export default function QuizPage() {
 
       {/* Question */}
       <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 max-w-lg w-full">
-        <p className="text-gray-800 text-xl leading-relaxed mb-6">{q.question_text}</p>
+        <MathText className="text-gray-800 text-xl leading-relaxed mb-6" text={q.question_text} />
 
         <div className="space-y-3">
           {q.answer_options.map((opt) => {
@@ -242,7 +243,7 @@ export default function QuizPage() {
                   {revealed && opt.is_correct && <span className="text-green-600 shrink-0">✅</span>}
                   {revealed && isSelected && !opt.is_correct && <span className="text-red-600 shrink-0">❌</span>}
                   <div>
-                    <p className="text-gray-800 text-lg">{opt.text}</p>
+                    <MathText className="text-gray-800 text-lg" text={opt.text} />
                     {revealed && isSelected && !opt.is_correct && opt.rationale && (
                       <p className="text-xs text-gray-500 mt-2">{opt.rationale}</p>
                     )}
