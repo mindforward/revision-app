@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import pkg from "../../package.json";
-import "katex/dist/katex.min.css";
 import "./globals.css";
+import "katex/dist/katex.min.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,10 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-TW" className="h-full">
-      <body className={`${geistSans.variable} ${geistMono.variable} min-h-dvh antialiased bg-gradient-to-b from-sky-50 to-white flex flex-col`}>
-          {children}
-        <footer className="text-center text-xs text-gray-400 py-4 border-t border-gray-100">
-          Revision App v{pkg.version}
+      <body className={`${geistSans.variable} ${geistMono.variable} min-h-dvh antialiased bg-gradient-to-b from-sky-50 to-white`}>
+        {children}
+        <footer className="text-center text-gray-400 text-xs py-6">
+          Revision App v1.0 &nbsp;·&nbsp; Developed by 如意小馬 © 2026
         </footer>
       </body>
     </html>

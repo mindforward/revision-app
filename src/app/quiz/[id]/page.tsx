@@ -3,7 +3,7 @@
 import { useParams, useRouter } from 'next/navigation'
 import { useEffect, useState, useCallback } from 'react'
 import { supabase, QuestionWithOptions, QuizBank } from '@/lib/supabase'
-import MathText from '@/components/MathText'
+import MathText from '@/components/Math'
 
 type UserAnswer = {
   questionId: string
@@ -25,6 +25,7 @@ export default function QuizPage() {
   const [numInput, setNumInput] = useState(10)
   const [started, setStarted] = useState(false)
   const [revealed, setRevealed] = useState(false)
+  const [showHint, setShowHint] = useState(false)
 
   useEffect(() => {
     const id = params.id as string
@@ -58,6 +59,7 @@ export default function QuizPage() {
     setShowReview(false)
     setSelectedId(null)
     setRevealed(false)
+    setShowHint(false)
     setStarted(true)
   }
 
@@ -80,9 +82,23 @@ export default function QuizPage() {
       setCurrentIndex(i => i + 1)
       setSelectedId(null)
       setRevealed(false)
+      setShowHint(false)
     } else {
       setShowResult(true)
     }
+  }
+
+  const jumpToQuestion = (index: number) => {
+    const ans = answers[index]
+    setCurrentIndex(index)
+    if (ans) {
+      setSelectedId(ans.selectedOptionId)
+      setRevealed(true)
+    } else {
+      setSelectedId(null)
+      setRevealed(false)
+    }
+    setShowHint(false)
   }
 
   const correctCount = answers.filter(a => a.isCorrect).length
@@ -158,11 +174,11 @@ export default function QuizPage() {
             {questions.map((q, i) => {
               const userAns = answers[i]
               return (
-                  <div key={q.id} className={`bg-white rounded-2xl p-5 border-2 shadow-sm ${
+                <div key={q.id} className={`bg-white rounded-2xl p-5 border-2 shadow-sm ${
                   userAns?.isCorrect ? 'border-green-300' : 'border-red-300'
                 }`}>
                   <p className="text-sm text-gray-400 mb-1">第 {i + 1} 題</p>
-                  <MathText className="text-gray-800 text-lg mb-3" text={q.question_text} />
+                  <p className="text-gray-800 text-lg mb-3"><MathText text={q.question_text} /></p>
                   <div className="space-y-2">
                     {q.answer_options.map(opt => {
                       const isUserChoice = opt.id === userAns?.selectedOptionId
@@ -176,9 +192,9 @@ export default function QuizPage() {
                             {opt.is_correct && <span className="text-green-600 shrink-0">✅</span>}
                             {isUserChoice && !opt.is_correct && <span className="text-red-600 shrink-0">❌</span>}
                             <div>
-                              <MathText className={opt.is_correct ? 'font-medium text-green-800' : ''} text={opt.text} />
+                              <p className={opt.is_correct ? 'font-medium text-green-800' : ''}><MathText text={opt.text} /></p>
                               {opt.rationale && (
-                                <p className="text-xs text-gray-500 mt-1">{opt.rationale}</p>
+                                <p className="text-xs text-gray-500 mt-1"><MathText text={opt.rationale} /></p>
                               )}
                             </div>
                           </div>
@@ -215,9 +231,54 @@ export default function QuizPage() {
         </div>
       </div>
 
+      {/* Floating question number nav */}
+      <div className="w-full max-w-lg mb-4 sticky top-2 z-10 overflow-x-auto">
+        <div className="flex gap-1.5 justify-center min-w-max p-2 bg-white/80 backdrop-blur-sm rounded-xl border border-gray-200 shadow-sm">
+          {questions.map((_, i) => {
+            const answered = answers[i] !== undefined
+            const isCurrent = currentIndex === i
+            return (
+              <button
+                key={i}
+                onClick={() => jumpToQuestion(i)}
+                className={`w-9 h-9 rounded-full text-sm font-semibold flex items-center justify-center transition-all ${
+                  isCurrent
+                    ? 'bg-sky-600 text-white shadow-md scale-110 ring-2 ring-sky-300'
+                    : answered
+                      ? 'bg-green-100 text-green-700 border border-green-300'
+                      : 'bg-gray-100 text-gray-500 hover:bg-gray-200 border border-gray-200'
+                }`}
+              >
+                {answered ? '✓' : i + 1}
+              </button>
+            )
+          })}
+        </div>
+      </div>
+
       {/* Question */}
       <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 max-w-lg w-full">
-        <MathText className="text-gray-800 text-xl leading-relaxed mb-6" text={q.question_text} />
+        {/* Question text + Hint button */}
+        <div className="flex items-start justify-between gap-3 mb-6">
+          <p className="text-gray-800 text-xl leading-relaxed"><MathText text={q.question_text} /></p>
+          {q.hint && (
+            <button
+              onClick={() => setShowHint(!showHint)}
+              className={`shrink-0 px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+                showHint ? 'bg-amber-100 text-amber-800 border border-amber-300' : 'bg-gray-100 text-gray-500 hover:bg-amber-50 hover:text-amber-700'
+              }`}
+              title="解說"
+            >
+              💡
+            </button>
+          )}
+        </div>
+
+        {showHint && q.hint && (
+          <div className="mb-5 p-4 bg-amber-50 border border-amber-200 rounded-xl text-sm text-amber-800">
+            💡 <MathText text={q.hint} />
+          </div>
+        )}
 
         <div className="space-y-3">
           {q.answer_options.map((opt) => {
@@ -243,12 +304,12 @@ export default function QuizPage() {
                   {revealed && opt.is_correct && <span className="text-green-600 shrink-0">✅</span>}
                   {revealed && isSelected && !opt.is_correct && <span className="text-red-600 shrink-0">❌</span>}
                   <div>
-                    <MathText className="text-gray-800 text-lg" text={opt.text} />
+                    <p className="text-gray-800 text-lg"><MathText text={opt.text} /></p>
                     {revealed && isSelected && !opt.is_correct && opt.rationale && (
-                      <p className="text-xs text-gray-500 mt-2">{opt.rationale}</p>
+                      <p className="text-xs text-gray-500 mt-2"><MathText text={opt.rationale} /></p>
                     )}
                     {revealed && opt.is_correct && opt.rationale && (
-                      <p className="text-xs text-gray-500 mt-2">{opt.rationale}</p>
+                      <p className="text-xs text-gray-500 mt-2"><MathText text={opt.rationale} /></p>
                     )}
                   </div>
                 </div>
@@ -257,13 +318,7 @@ export default function QuizPage() {
           })}
         </div>
 
-        {/* Hint */}
-        {revealed && q.hint && (
-          <div className="mt-4 p-4 bg-amber-50 border border-amber-200 rounded-xl text-sm text-amber-800">
-            💡 {q.hint}
-          </div>
-        )}
-
+        {/* No need old Hint section — now shows before answer too */}
         {/* Next button */}
         {revealed && (
           <button
