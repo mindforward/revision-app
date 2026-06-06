@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300" width="450" height="300">
+  <rect width="450" height="300" fill="white" rx="8"/>
+  <rect x="50" y="50" width="340" height="170" fill="#e8f6fe" stroke="#1e375a" stroke-width="3"/>
+  <line x1="50" y1="245" x2="390" y2="245" stroke="#00abe4" stroke-width="2"/>
+  <text x="220" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">120 m（長）</text>
+  <line x1="30" y1="50" x2="30" y2="220" stroke="#00abe4" stroke-width="2"/>
+  <text x="22" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold" transform="rotate(-90, 22, 135)">80 m（闊）</text>
+  <path d="M 50 50 L 50 220 M 390 50 L 390 220 M 50 50 L 390 50 M 50 220 L 390 220" 
+        fill="none" stroke="#e74c3c" stroke-width="2.5" stroke-dasharray="10,6"/>
+  <text x="220" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e74c3c">周界 = ? m</text>
+  <text x="220" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1e375a">(120 + 80) × 2</text>
+</svg>

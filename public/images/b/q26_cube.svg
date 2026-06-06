@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <rect width="400" height="320" fill="white" rx="8"/>
+  <polygon points="80,240 80,60 260,60 260,240" fill="#e8f6fe" stroke="#1e375a" stroke-width="3"/>
+  <polygon points="80,60 160,30 340,30 260,60" fill="#d0ebf9" stroke="#1e375a" stroke-width="3"/>
+  <polygon points="260,60 340,30 340,210 260,240" fill="#b8def5" stroke="#1e375a" stroke-width="3"/>
+  <line x1="80" y1="265" x2="260" y2="265" stroke="#00abe4" stroke-width="2"/>
+  <text x="170" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">7 cm</text>
+  <line x1="260" y1="52" x2="340" y2="22" stroke="#00abe4" stroke-width="2"/>
+  <text x="310" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">7 cm</text>
+  <line x1="62" y1="60" x2="62" y2="240" stroke="#00abe4" stroke-width="2"/>
+  <text x="50" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold" transform="rotate(-90, 50, 150)">7 cm</text>
+  <text x="210" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#00abe4" font-weight="bold">正方體</text>
+  <line x1="80" y1="240" x2="160" y2="210" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="160" y1="210" x2="340" y2="180" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="160" y1="30" x2="160" y2="210" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300">
+  <rect width="420" height="300" fill="white" rx="8"/>
+  <polygon points="60,230 340,230 200,40" fill="#e8f6fe" stroke="#1e375a" stroke-width="3"/>
+  <!-- Height dashed line -->
+  <line x1="200" y1="40" x2="200" y2="230" stroke="#e74c3c" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="190" y="145" text-anchor="end" font-family="Arial, sans-serif" font-size="16" fill="#e74c3c" font-weight="bold">高 8 cm</text>
+  <!-- Base label -->
+  <line x1="60" y1="255" x2="340" y2="255" stroke="#00abe4" stroke-width="2"/>
+  <text x="200" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">底 12 cm</text>
+  <!-- Right angle marker -->
+  <polyline points="200,230 190,230 190,220" fill="none" stroke="#1e375a" stroke-width="1.5"/>
+  <!-- Area formula -->
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#00abe4">面積 = 底 × 高 ÷ 2</text>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 350" width="450" height="350">
+  <rect width="450" height="350" fill="white" rx="8"/>
+  <polygon points="70,260 70,60 300,60 300,260" fill="#f0f8ff" stroke="#1e375a" stroke-width="3"/>
+  <polygon points="70,60 160,30 390,30 300,60" fill="#e8f4fd" stroke="#1e375a" stroke-width="3"/>
+  <polygon points="300,60 390,30 390,230 300,260" fill="#dceefb" stroke="#1e375a" stroke-width="3"/>
+  <!-- Water -->
+  <polygon points="70,160 300,160 390,130 160,130" fill="rgba(0,171,228,0.25)"/>
+  <polygon points="70,160 70,260 300,260 300,160" fill="rgba(0,171,228,0.25)"/>
+  <polygon points="300,160 300,260 390,230 390,130" fill="rgba(0,171,228,0.3)"/>
+  <line x1="70" y1="160" x2="300" y2="160" stroke="#00abe4" stroke-width="2.5" stroke-dasharray="8,5"/>
+  <line x1="300" y1="160" x2="390" y2="130" stroke="#00abe4" stroke-width="2.5" stroke-dasharray="8,5"/>
+  <text x="185" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#00abe4" font-weight="bold">水 45,000 cm³</text>
+  <line x1="70" y1="285" x2="300" y2="285" stroke="#00abe4" stroke-width="2"/>
+  <text x="185" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">50 cm（長）</text>
+  <line x1="300" y1="52" x2="390" y2="22" stroke="#00abe4" stroke-width="2"/>
+  <text x="355" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">30 cm（闊）</text>
+  <line x1="57" y1="60" x2="57" y2="260" stroke="#00abe4" stroke-width="2"/>
+  <text x="42" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e74c3c" font-weight="bold" transform="rotate(-90, 42, 140)">? cm</text>
+  <line x1="70" y1="260" x2="160" y2="230" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="160" y1="230" x2="390" y2="200" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="160" y1="30" x2="160" y2="230" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+</svg>

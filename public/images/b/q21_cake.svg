@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280">
+  <rect width="480" height="280" fill="white" rx="8"/>
+  <circle cx="120" cy="130" r="80" fill="#f0e8c4" stroke="#1e375a" stroke-width="3"/>
+  <!-- Showing ¾ by shading ¼ (90°) -->
+  <path d="M 120 50 A 80 80 0 0 1 200 130 L 120 130 Z" fill="#e8f6fe" stroke="#1e375a" stroke-width="1"/>
+  <path d="M 120 50 A 80 80 0 0 0 40 130 L 120 130 Z" fill="#f0e8c4" stroke="#1e375a" stroke-width="1"/>
+  <path d="M 120 210 A 80 80 0 0 0 40 130 L 120 130 Z" fill="#d0ebf9" stroke="#1e375a" stroke-width="1"/>
+  <path d="M 120 210 A 80 80 0 0 1 200 130 L 120 130 Z" fill="#b8def5" stroke="#1e375a" stroke-width="1"/>
+  <text x="120" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1e375a" font-weight="bold">¾</text>
+  <text x="120" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e375a">蛋糕的 ¾</text>
+  <text x="300" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#00abe4">÷ 6</text>
+  <g transform="translate(260, 140)">
+    <circle cx="0" cy="0" r="8" fill="#e8f6fe" stroke="#1e375a" stroke-width="1.5"/>
+    <circle cx="22" cy="0" r="8" fill="#e8f6fe" stroke="#1e375a" stroke-width="1.5"/>
+    <circle cx="44" cy="0" r="8" fill="#e8f6fe" stroke="#1e375a" stroke-width="1.5"/>
+    <circle cx="66" cy="0" r="8" fill="#e8f6fe" stroke="#1e375a" stroke-width="1.5"/>
+    <circle cx="88" cy="0" r="8" fill="#e8f6fe" stroke="#1e375a" stroke-width="1.5"/>
+    <circle cx="110" cy="0" r="8" fill="#e8f6fe" stroke="#1e375a" stroke-width="1.5"/>
+    <text x="55" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e375a">每人 = ?</text>
+  </g>
+</svg>

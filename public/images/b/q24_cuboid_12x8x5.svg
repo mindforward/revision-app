@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320">
+  <rect width="420" height="320" fill="white" rx="8"/>
+  <polygon points="70,240 70,60 290,60 290,240" fill="#e8f6fe" stroke="#1e375a" stroke-width="3"/>
+  <polygon points="70,60 160,30 380,30 290,60" fill="#d0ebf9" stroke="#1e375a" stroke-width="3"/>
+  <polygon points="290,60 380,30 380,210 290,240" fill="#b8def5" stroke="#1e375a" stroke-width="3"/>
+  <line x1="85" y1="270" x2="290" y2="270" stroke="#00abe4" stroke-width="2"/>
+  <text x="187" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">12 cm（長）</text>
+  <line x1="290" y1="52" x2="380" y2="22" stroke="#00abe4" stroke-width="2"/>
+  <text x="345" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">8 cm（闊）</text>
+  <line x1="57" y1="60" x2="57" y2="240" stroke="#00abe4" stroke-width="2"/>
+  <text x="48" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold" transform="rotate(-90, 48, 150)">5 cm（高）</text>
+  <line x1="70" y1="240" x2="160" y2="210" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="160" y1="210" x2="380" y2="180" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="160" y1="30" x2="160" y2="210" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+  <rect width="400" height="260" fill="white" rx="8"/>
+  <rect x="60" y="50" width="280" height="150" fill="#e8f6fe" stroke="#1e375a" stroke-width="3"/>
+  <line x1="60" y1="225" x2="340" y2="225" stroke="#00abe4" stroke-width="2"/>
+  <text x="200" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">15 m（長）</text>
+  <line x1="40" y1="50" x2="40" y2="200" stroke="#00abe4" stroke-width="2"/>
+  <text x="32" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold" transform="rotate(-90, 32, 125)">9 m（闊）</text>
+  <text x="200" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#00abe4" font-weight="bold">面積 = ? m²</text>
+</svg>
