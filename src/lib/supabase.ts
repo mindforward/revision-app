@@ -18,6 +18,7 @@ export type Question = {
   question_number: number
   question_text: string
   hint: string | null
+  image_url: string | null
   created_at: string
 }
 

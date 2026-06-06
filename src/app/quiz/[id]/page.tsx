@@ -280,6 +280,13 @@ export default function QuizPage() {
           </div>
         )}
 
+        {q.image_url && (
+          <div className="mb-5 flex justify-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={q.image_url} alt="題目圖片" className="max-w-full rounded-xl" style={{ maxHeight: 300 }} />
+          </div>
+        )}
+
         <div className="space-y-3">
           {q.answer_options.map((opt) => {
             const isSelected = selectedId === opt.id
