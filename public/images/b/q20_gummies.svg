@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 220" width="550" height="220">
+  <rect width="550" height="220" fill="white" rx="8"/>
+  
+  <text x="275" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e375a" font-weight="bold">逆向推理：由尾到頭</text>
+  
+  <!-- Step 3: Jenny has 18 after giving 8 -->
+  <rect x="30" y="50" width="100" height="80" fill="#f0e8c4" stroke="#1e375a" stroke-width="2.5" rx="8"/>
+  <text x="80" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e375a">Jenny 最後</text>
+  <text x="80" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#e74c3c" font-weight="bold">18 粒</text>
+  
+  <text x="165" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#00abe4">←</text>
+  
+  <!-- Step 2: Jenny before giving. She had 18+8=26 -->
+  <rect x="200" y="50" width="100" height="80" fill="#d0ebf9" stroke="#1e375a" stroke-width="2.5" rx="8"/>
+  <text x="250" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e375a">Jenny 原分到</text>
+  <text x="250" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#00abe4" font-weight="bold">18+8 = 26 粒</text>
+  
+  <text x="335" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#00abe4">←</text>
+  
+  <!-- Step 1: Mary originally had 26×2=52 -->
+  <rect x="370" y="50" width="140" height="80" fill="#e8f6fe" stroke="#1e375a" stroke-width="2.5" rx="8"/>
+  <text x="440" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e375a">Mary 原來</text>
+  <text x="440" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1e375a" font-weight="bold">26 × 2 = 52 粒</text>
+  
+  <!-- Connection labels -->
+  <text x="155" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">還原：+8</text>
+  <text x="310" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">還原：×2</text>
+  
+  <text x="275" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1e375a">答案：Mary 原來有 <tspan font-weight="bold" fill="#e74c3c">52 粒</tspan> 軟糖</text>
+</svg>

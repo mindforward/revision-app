@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <rect width="500" height="400" fill="white" rx="8"/>
+  
+  <!-- 3D shape made of cubes - 3 wide, 2 deep, 2 tall = 12 cubes -->
+  <!-- Layer 1 (bottom): 3×2 = 6 cubes -->
+  <!-- Row 1 (front): 3 cubes -->
+  <polygon points="120,280 120,190 210,190 210,280" fill="#e8f6fe" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="210,280 210,190 300,190 300,280" fill="#d0ebf9" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="300,280 300,190 390,190 390,280" fill="#e8f6fe" stroke="#1e375a" stroke-width="2"/>
+  
+  <!-- Row 2 (back): 3 cubes -->
+  <polygon points="150,250 150,160 240,160 240,250" fill="#d0ebf9" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="240,250 240,160 330,160 330,250" fill="#e8f6fe" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="330,250 330,160 420,160 420,250" fill="#d0ebf9" stroke="#1e375a" stroke-width="2"/>
+  
+  <!-- Top faces of layer 1 -->
+  <polygon points="120,190 150,160 240,160 210,190" fill="#b8def5" stroke="#1e375a" stroke-width="1.5"/>
+  <polygon points="210,190 240,160 330,160 300,190" fill="#a8d4f0" stroke="#1e375a" stroke-width="1.5"/>
+  <polygon points="300,190 330,160 420,160 390,190" fill="#b8def5" stroke="#1e375a" stroke-width="1.5"/>
+  
+  <!-- Layer 2 (top): 3×2 = 6 cubes -->
+  <polygon points="120,190 120,100 210,100 210,190" fill="#f0e8c4" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="210,190 210,100 300,100 300,190" fill="#e8dcb0" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="300,190 300,100 390,100 390,190" fill="#f0e8c4" stroke="#1e375a" stroke-width="2"/>
+  
+  <polygon points="150,160 150,70 240,70 240,160" fill="#e8dcb0" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="240,160 240,70 330,70 330,160" fill="#f0e8c4" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="330,160 330,70 420,70 420,160" fill="#e8dcb0" stroke="#1e375a" stroke-width="2"/>
+  
+  <!-- Top faces of layer 2 -->
+  <polygon points="120,100 150,70 240,70 210,100" fill="#f5efd4" stroke="#1e375a" stroke-width="1"/>
+  <polygon points="210,100 240,70 330,70 300,100" fill="#faf5e0" stroke="#1e375a" stroke-width="1"/>
+  <polygon points="300,100 330,70 420,70 390,100" fill="#f5efd4" stroke="#1e375a" stroke-width="1"/>
+  
+  <!-- Cube count label -->
+  <text x="255" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e375a">每個小正方體體積 = <tspan font-weight="bold">1 cm³</tspan></text>
+  <text x="255" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e74c3c" font-weight="bold">一共需要多少個小正方體？</text>
+  
+  <!-- Dimension labels -->
+  <line x1="120" y1="298" x2="390" y2="298" stroke="#00abe4" stroke-width="1.5"/>
+  <text x="255" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#00abe4">3 個</text>
+  
+  <line x1="105" y1="100" x2="105" y2="280" stroke="#00abe4" stroke-width="1.5"/>
+  <text x="98" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#00abe4" transform="rotate(-90, 98, 190)">2 個</text>
+</svg>

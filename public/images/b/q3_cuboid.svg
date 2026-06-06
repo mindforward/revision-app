@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 350" width="450" height="350">
+  <rect width="450" height="350" fill="white" rx="8"/>
+  
+  <!-- Front face 32×30 -->
+  <polygon points="80,260 80,50 280,50 280,260" fill="#e8f6fe" stroke="#1e375a" stroke-width="3"/>
+  
+  <!-- Top face 32×25 (isometric) -->
+  <polygon points="80,50 180,20 380,20 280,50" fill="#d0ebf9" stroke="#1e375a" stroke-width="3"/>
+  
+  <!-- Right face 25×30 (isometric) -->
+  <polygon points="280,50 380,20 380,230 280,260" fill="#b8def5" stroke="#1e375a" stroke-width="3"/>
+  
+  <!-- Length label (32 cm) -->
+  <line x1="80" y1="285" x2="280" y2="285" stroke="#00abe4" stroke-width="2"/>
+  <text x="180" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">32 cm（長）</text>
+  
+  <!-- Width label (25 cm) on top -->
+  <line x1="280" y1="42" x2="380" y2="12" stroke="#00abe4" stroke-width="2"/>
+  <text x="340" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">25 cm（闊）</text>
+  
+  <!-- Height label (30 cm) -->
+  <line x1="395" y1="125" x2="395" y2="245" stroke="#00abe4" stroke-width="2"/>
+  <text x="410" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e375a" font-weight="bold">30 cm</text>
+  <text x="410" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c" font-weight="bold">（高 = 32−2）</text>
+  
+  <!-- Dotted hidden edges -->
+  <line x1="80" y1="260" x2="180" y2="230" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="180" y1="230" x2="380" y2="200" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="180" y1="20" x2="180" y2="230" stroke="#1e375a" stroke-width="1.5" stroke-dasharray="6,4"/>
+</svg>

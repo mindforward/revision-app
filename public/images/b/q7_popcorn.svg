@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="500" height="220">
+  <rect width="500" height="220" fill="white" rx="8"/>
+  
+  <!-- Small bucket -->
+  <polygon points="50,180 80,40 140,40 170,180" fill="#d0ebf9" stroke="#1e375a" stroke-width="3"/>
+  <ellipse cx="110" cy="40" rx="30" ry="10" fill="#b8def5" stroke="#1e375a" stroke-width="2"/>
+  <text x="110" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e375a" font-weight="bold">🍿</text>
+  <text x="110" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#00abe4">?</text>
+  
+  <text x="215" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#00abe4">× 5</text>
+  
+  <!-- Large bucket = 5x -->
+  <polygon points="260,170 310,20 450,20 500,170" fill="#e8f6fe" stroke="#1e375a" stroke-width="3"/>
+  <ellipse cx="380" cy="20" rx="70" ry="15" fill="#d0ebf9" stroke="#1e375a" stroke-width="2"/>
+  <text x="380" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e375a" font-weight="bold">🍿🍿🍿🍿🍿</text>
+  <text x="380" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1e375a" font-weight="bold">185 粒</text>
+  
+  <text x="290" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1e375a">185 ÷ 5 = ?</text>
+</svg>

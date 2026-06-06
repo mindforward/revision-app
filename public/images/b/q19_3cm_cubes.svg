@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <rect width="500" height="400" fill="white" rx="8"/>
+  
+  <!-- 2×2×2 = 8 cubes, each side 3cm -->
+  <!-- Front layer -->
+  <polygon points="160,280 160,140 260,140 260,280" fill="#e8f6fe" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="260,280 260,140 360,140 360,280" fill="#d0ebf9" stroke="#1e375a" stroke-width="2"/>
+  
+  <!-- Back layer -->
+  <polygon points="210,240 210,100 310,100 310,240" fill="#d0ebf9" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="310,240 310,100 410,100 410,240" fill="#e8f6fe" stroke="#1e375a" stroke-width="2"/>
+  
+  <!-- Top faces -->
+  <polygon points="160,140 210,100 310,100 260,140" fill="#b8def5" stroke="#1e375a" stroke-width="1.5"/>
+  <polygon points="260,140 310,100 410,100 360,140" fill="#a8d4f0" stroke="#1e375a" stroke-width="1.5"/>
+  
+  <!-- Top layer -->
+  <polygon points="160,140 160,60 260,60 260,140" fill="#f0e8c4" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="260,140 260,60 360,60 360,140" fill="#e8dcb0" stroke="#1e375a" stroke-width="2"/>
+  
+  <polygon points="210,100 210,20 310,20 310,100" fill="#e8dcb0" stroke="#1e375a" stroke-width="2"/>
+  <polygon points="310,100 310,20 410,20 410,100" fill="#f0e8c4" stroke="#1e375a" stroke-width="2"/>
+  
+  <!-- Top faces of top layer -->
+  <polygon points="160,60 210,20 310,20 260,60" fill="#f5efd4" stroke="#1e375a" stroke-width="1"/>
+  <polygon points="260,60 310,20 410,20 360,60" fill="#faf5e0" stroke="#1e375a" stroke-width="1"/>
+  
+  <!-- Cube side label -->
+  <line x1="160" y1="295" x2="260" y2="295" stroke="#00abe4" stroke-width="2"/>
+  <text x="210" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e375a" font-weight="bold">3 cm</text>
+  
+  <!-- One cube highlighted with dimension -->
+  <text x="260" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e375a">每個小正方體邊長 = <tspan font-weight="bold">3 cm</tspan></text>
+  
+  <!-- Volume calculation hint -->
+  <text x="260" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">立體圖形的體積 = ? cm³</text>
+</svg>

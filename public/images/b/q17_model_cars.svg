@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 250" width="550" height="250">
+  <rect width="550" height="250" fill="white" rx="8"/>
+  
+  <!-- 3 paid cars -->
+  <text x="50" y="40" font-family="Arial, sans-serif" font-size="15" fill="#1e375a" font-weight="bold">買 3 架（付款）</text>
+  <rect x="50" y="55" width="70" height="60" fill="#e8f6fe" stroke="#1e375a" stroke-width="2" rx="6"/>
+  <text x="85" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🚗</text>
+  <rect x="130" y="55" width="70" height="60" fill="#e8f6fe" stroke="#1e375a" stroke-width="2" rx="6"/>
+  <text x="165" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🚗</text>
+  <rect x="210" y="55" width="70" height="60" fill="#e8f6fe" stroke="#1e375a" stroke-width="2" rx="6"/>
+  <text x="245" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🚗</text>
+  
+  <text x="290" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#00abe4">+</text>
+  
+  <!-- 1 free car -->
+  <rect x="310" y="55" width="70" height="60" fill="#f0e8c4" stroke="#e67e22" stroke-width="2.5" rx="6" stroke-dasharray="5,3"/>
+  <text x="345" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🚗</text>
+  <text x="345" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e67e22">免費</text>
+  
+  <text x="400" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#00abe4">+</text>
+  
+  <!-- Controller -->
+  <rect x="420" y="55" width="80" height="60" fill="#d0ebf9" stroke="#1e375a" stroke-width="2" rx="6"/>
+  <text x="460" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🎮</text>
+  
+  <!-- Total -->
+  <text x="300" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e375a">總共付款：$500</text>
+  <text x="300" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e375a">控制器：$80</text>
+  
+  <text x="300" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#e74c3c">每架模型車原價 = (500 − 80) ÷ 3 = ?</text>
+</svg>
