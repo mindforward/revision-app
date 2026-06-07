@@ -304,7 +304,7 @@ export default function QuizPage() {
           <div className="flex shrink-0 gap-1.5">
             <button
               onClick={() => {
-                const displayText = q.question_text.replace(/\[LISTEN\].*?\[\/LISTEN\]/s, '').trim()
+                const displayText = q.question_text.replace(/\[LISTEN\][\s\S]*?\[\/LISTEN\]/, '').trim()
                 speakText(displayText)
               }}
               className={`shrink-0 px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
