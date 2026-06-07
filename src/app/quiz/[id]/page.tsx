@@ -154,21 +154,47 @@ export default function QuizPage() {
           <p className="text-gray-500">題庫共有 <strong>{allQuestions.length}</strong> 題</p>
 
           <div>
-            <label className="block text-gray-600 mb-2 text-lg">選擇要做嘅題數</label>
-            <input
-              type="number"
-              min={1}
-              max={allQuestions.length}
-              value={numInput}
-              onChange={e => setNumInput(Number(e.target.value))}
-              className="w-24 text-center text-xl border border-gray-300 rounded-xl py-3 mx-auto focus:outline-none focus:ring-2 focus:ring-sky-400"
-            />
+            <label className="block text-gray-600 mb-3 text-lg">選擇要做嘅題數</label>
+            <div className="flex items-center justify-center gap-2">
+              <button
+                onClick={() => setNumInput(Math.max(1, numInput - 10))}
+                disabled={numInput <= 1}
+                className="w-12 h-12 rounded-xl border-2 border-gray-300 text-gray-600 text-xl font-bold hover:bg-sky-50 hover:border-sky-400 hover:text-sky-600 transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+              >
+                −
+              </button>
+              <input
+                type="number"
+                min={1}
+                max={allQuestions.length}
+                value={numInput}
+                onChange={e => {
+                  const v = Number(e.target.value)
+                  if (v >= 1 && v <= allQuestions.length) setNumInput(v)
+                }}
+                className="w-24 text-center text-xl border border-gray-300 rounded-xl py-3 focus:outline-none focus:ring-2 focus:ring-sky-400"
+              />
+              <button
+                onClick={() => setNumInput(Math.min(allQuestions.length, numInput + 10))}
+                disabled={numInput >= allQuestions.length}
+                className="w-12 h-12 rounded-xl border-2 border-gray-300 text-gray-600 text-xl font-bold hover:bg-sky-50 hover:border-sky-400 hover:text-sky-600 transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+              >
+                +
+              </button>
+              <button
+                onClick={() => setNumInput(allQuestions.length)}
+                className="ml-1 px-4 h-12 rounded-xl border-2 border-amber-300 text-amber-700 text-sm font-bold hover:bg-amber-50 transition-all"
+              >
+                MAX
+              </button>
+            </div>
             <p className="text-sm text-gray-400 mt-2">（最多 {allQuestions.length} 題）</p>
           </div>
 
           <button
             onClick={startQuiz}
-            className="w-full bg-sky-600 text-white py-4 rounded-xl text-xl font-semibold hover:bg-sky-700 transition-colors shadow-sm"
+            disabled={allQuestions.length === 0}
+            className="w-full bg-sky-600 text-white py-4 rounded-xl text-xl font-semibold hover:bg-sky-700 transition-colors shadow-sm disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed disabled:shadow-none"
           >
             開始溫習 🚀
           </button>

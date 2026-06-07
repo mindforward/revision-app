@@ -1,0 +1,552 @@
+[
+  {
+    "questionNumber": 51,
+    "question": "閱讀以下文字，然後回答問題：\n\n「每個人有不同的性格，有的愛說話，有的沉默寡言；有的熱情，有的內向。可是我認為不論是甚麼人，溝通也十分重要。首先，溝通能夠減少誤會，促進人際關係。唯有溝通才能讓彼此互相了解，避免衝突。春秋戰國時期有一個叫耕柱的人，他的老師是鼎鼎大名的墨子。墨子對這位學生十分嚴厲，經常批評他。耕柱最初以為墨子厭惡自己，後來問個明白，知道老師對自己特別嚴苛是因為寄以厚望，想自己積極向上。假如沒有溝通，耕柱可能從此誤會敬重的老師墨子。」\n\n上面一段文字的中心句是以下哪一項？",
+    "hint": "中心句通常是段落中最重要的句子，概括全段內容。",
+    "answerOptions": [
+      {"text": "每個人有不同的性格。", "isCorrect": false, "rationale": "這只是開頭引入，不是全段重點。"},
+      {"text": "耕柱的故事說明了溝通的重要。", "isCorrect": false, "rationale": "耕柱的故事只是舉例說明，不是中心句。"},
+      {"text": "溝通能夠減少誤會，促進人際關係。", "isCorrect": true, "rationale": "這句概括了全段內容——溝通減少誤會，並用耕柱的故事作為例子來說明。"},
+      {"text": "墨子對耕柱十分嚴厲。", "isCorrect": false, "rationale": "這只是故事中的細節，不是全段中心思想。"}
+    ]
+  },
+  {
+    "questionNumber": 52,
+    "question": "根據上文（論溝通），作者舉耕柱和墨子這個例子是為了說明甚麼？",
+    "hint": "想想耕柱為甚麼原本誤會墨子，後來又明白了。",
+    "answerOptions": [
+      {"text": "墨子是一個嚴格的老師。", "isCorrect": false, "rationale": "例子重點不在墨子的嚴格，而在溝通的作用。"},
+      {"text": "耕柱是一個勤奮的學生。", "isCorrect": false, "rationale": "文中沒有說耕柱勤奮。"},
+      {"text": "缺乏溝通會產生誤會，溝通能化解誤會。", "isCorrect": true, "rationale": "耕柱最初誤會老師，透過溝通才明白老師的苦心，正好說明了溝通的重要性。"},
+      {"text": "老師不應對學生太嚴厲。", "isCorrect": false, "rationale": "文中沒有批評老師嚴厲的意思。"}
+    ]
+  },
+  {
+    "questionNumber": 53,
+    "question": "根據「論溝通」一文，作者認為良好的溝通可以帶來以下哪項好處？\n（一）減少誤會，促進人際關係\n（二）促進合作，提升效率\n（三）建立個人自信\n（四）增加個人財富",
+    "hint": "從「首先」、「其次」、「最後」三個層次找答案。",
+    "answerOptions": [
+      {"text": "（一）、（二）", "isCorrect": false, "rationale": "還有（三）建立自信也是好處之一。"},
+      {"text": "（一）、（二）、（三）", "isCorrect": true, "rationale": "文中分別從減少誤會、促進合作、建立自信三個層面說明溝通的好處。"},
+      {"text": "（一）、（二）、（四）", "isCorrect": false, "rationale": "文中沒有提到增加個人財富。"},
+      {"text": "全部都是", "isCorrect": false, "rationale": "文中沒有提到增加個人財富。"}
+    ]
+  },
+  {
+    "questionNumber": 54,
+    "question": "「論溝通」一文中，作者引用美國籃球巨星居里的話「溝通就像團隊的黏着劑」，這裡使用了甚麼修辭手法？",
+    "hint": "想想「像……一樣」是甚麼修辭手法。",
+    "answerOptions": [
+      {"text": "擬人法", "isCorrect": false, "rationale": "沒有把溝通當成人來寫。"},
+      {"text": "比喻法", "isCorrect": true, "rationale": "把溝通比作黏着劑，說明溝通能將團隊成員聯繫在一起，是明喻（比喻法）。"},
+      {"text": "誇張法", "isCorrect": false, "rationale": "沒有誇大的成分。"},
+      {"text": "排比", "isCorrect": false, "rationale": "這是一句話，不是排比句式。"}
+    ]
+  },
+  {
+    "questionNumber": 55,
+    "question": "根據「論溝通」一文，作者認為溝通如何幫助建立自信？",
+    "hint": "留意文中關於研究發現的描述。",
+    "answerOptions": [
+      {"text": "溝通能讓人獲得金錢回報。", "isCorrect": false, "rationale": "文中沒有提到金錢。"},
+      {"text": "溝通能讓人變得比別人優秀。", "isCorrect": false, "rationale": "文中沒有比較的意思。"},
+      {"text": "溝通能讓人獲得認同和尊重，了解自己，從而提升自信。", "isCorrect": true, "rationale": "文中指出通過溝通可獲得認同和尊重，了解自己的想法，建立自我形象，從而提升自信。"},
+      {"text": "溝通能讓人交到更多朋友。", "isCorrect": false, "rationale": "文中沒有直接說溝通能交到朋友。"}
+    ]
+  },
+  {
+    "questionNumber": 56,
+    "question": "閱讀以下文字，然後回答問題：\n\n「差不多先生的相貌，和你和我都差不多。他有一雙眼睛，但看得不很清楚；有兩隻耳朵，但聽得不很分明。他常常說：『凡事只要差不多就好了，何必太精明呢？』他小時候，他媽叫他去買紅糖，他買了白糖回來。他媽罵他，他搖頭道：『紅糖、白糖，不是差不多嗎？』」\n\n從這段文字可見，差不多先生是一個怎樣的人？",
+    "hint": "從他的言行來判斷。",
+    "answerOptions": [
+      {"text": "精明能幹", "isCorrect": false, "rationale": "他的言行正正相反，一點也不精明。"},
+      {"text": "馬虎了事、不認真", "isCorrect": true, "rationale": "他買錯東西也不在意，認為差不多就可以，可見他做事馬虎、不認真。"},
+      {"text": "聰明機智", "isCorrect": false, "rationale": "他連紅糖和白糖也分不清，不聰明。"},
+      {"text": "勤奮好學", "isCorrect": false, "rationale": "文中完全沒有提到他勤奮。"}
+    ]
+  },
+  {
+    "questionNumber": 57,
+    "question": "根據「差不多先生」一文，差不多先生在學堂時把「山西」說成「陝西」，這說明了甚麼？",
+    "hint": "這跟他對事情的態度有關。",
+    "answerOptions": [
+      {"text": "他地理知識不足。", "isCorrect": false, "rationale": "雖然是事實，但重點不是知識不足，而是他覺得差不多就可以的態度。"},
+      {"text": "他覺得山西和陝西差不多。", "isCorrect": true, "rationale": "他認為兩個省份差不多，反映了凡事求其、不認真的態度。"},
+      {"text": "他聽錯了老師的問題。", "isCorrect": false, "rationale": "文中沒有說他聽錯。"},
+      {"text": "他故意說錯答案。", "isCorrect": false, "rationale": "他不是故意的，而是真的認為差不多。"}
+    ]
+  },
+  {
+    "questionNumber": 58,
+    "question": "差不多先生錯過了火車，原因是甚麼？",
+    "hint": "看看文中他幾點到達火車站。",
+    "answerOptions": [
+      {"text": "火車提早開出了。", "isCorrect": false, "rationale": "火車是按時開出的，是他自己遲到。"},
+      {"text": "他沒有準時到達火車站。", "isCorrect": true, "rationale": "他遲了兩分鐘到達火車站，火車已經開走了。"},
+      {"text": "他要做的事並不要緊。", "isCorrect": false, "rationale": "文中說他「為了一件要緊的事」要搭火車。"},
+      {"text": "火車上滿了人就開走了。", "isCorrect": false, "rationale": "文中沒有提到這個原因。"}
+    ]
+  },
+  {
+    "questionNumber": 59,
+    "question": "差不多先生最終的結局是甚麼？這跟他的性格有甚麼關係？",
+    "hint": "想想他生病時發生了甚麼事。",
+    "answerOptions": [
+      {"text": "他病好了，因為醫生治好了他。", "isCorrect": false, "rationale": "醫生請錯了，他最後死了。"},
+      {"text": "他死了，因為他覺得醫生差不多，結果用錯藥。", "isCorrect": true, "rationale": "他覺得王大夫和汪大夫差不多，結果用醫牛的方法醫人，導致死亡。這正是他凡事差不多的性格導致。"},
+      {"text": "他死了，因為病情太重。", "isCorrect": false, "rationale": "主要原因是請錯醫生，不是病情本身。"},
+      {"text": "他康復了，因為王大夫醫術高明。", "isCorrect": false, "rationale": "王大夫是牛醫，用醫牛的方法醫他，他最後死了。"}
+    ]
+  },
+  {
+    "questionNumber": 60,
+    "question": "「差不多先生」這個故事主要想帶出甚麼道理？",
+    "hint": "想想作者為甚麼要寫這個人物。",
+    "answerOptions": [
+      {"text": "世界上有很多差不多的事情。", "isCorrect": false, "rationale": "文章不是要說明世界上有很多差不多的事，而是諷刺這種態度。"},
+      {"text": "做人要認真精確，不應馬虎了事。", "isCorrect": true, "rationale": "差不多先生因為凡事差不多而導致悲劇結局，藉此告誡我們做事要認真。"},
+      {"text": "看事情不要只看表面。", "isCorrect": false, "rationale": "文章重點不是表面與內在的差別。"},
+      {"text": "要學會原諒別人的錯誤。", "isCorrect": false, "rationale": "文章不是講原諒。"}
+    ]
+  },
+  {
+    "questionNumber": 61,
+    "question": "「山竹有『果后』之稱，服用後能夠增強免疫力，抵抗炎症，甚至含有治療癌症的物質，因此百多年來被視為醫療聖物。」\n\n上面一段文字主要說明甚麼？",
+    "hint": "留意全段的重點。",
+    "answerOptions": [
+      {"text": "山竹是水果之后。", "isCorrect": false, "rationale": "雖然有提及，但只是引出話題，重點在後面的醫藥價值。"},
+      {"text": "山竹深受人們歡迎。", "isCorrect": false, "rationale": "文中沒有提到受歡迎的程度。"},
+      {"text": "山竹很有醫藥價值。", "isCorrect": true, "rationale": "全文都在說明山竹的醫藥功效——增強免疫力、抵抗炎症、治療癌症。"},
+      {"text": "山竹在近百年才為人認識。", "isCorrect": false, "rationale": "文中說「百多年來被視為醫療聖物」，不是近百年才為人認識。"}
+    ]
+  },
+  {
+    "questionNumber": 62,
+    "question": "「調查結果顯示，到訪海洋遊樂場的遊客以介乎十五歲至二十五歲的年輕人為主，他們認為遊樂場最吸引的是數量眾多又刺激的機動遊戲。」\n\n上面一段文字主要說明甚麼？",
+    "hint": "找出調查結果的重點。",
+    "answerOptions": [
+      {"text": "調查結果跟預期一致。", "isCorrect": false, "rationale": "文中沒有提及預期。"},
+      {"text": "海洋遊樂場不適合長者。", "isCorrect": false, "rationale": "文中沒有說不適合長者。"},
+      {"text": "海洋遊樂場十分有名氣。", "isCorrect": false, "rationale": "文中沒有提到名氣。"},
+      {"text": "海洋遊樂場的機動遊戲最受歡迎。", "isCorrect": true, "rationale": "調查顯示年輕遊客認為最吸引的是機動遊戲，說明了機動遊戲最受歡迎。"}
+    ]
+  },
+  {
+    "questionNumber": 63,
+    "question": "「永和攪拌棒遺忘在外面，它們隔日凍結在一起，於是世上第一根冰棍誕生了。」\n\n上面一段文字主要說明甚麼？",
+    "hint": "想想冰棍是怎樣出現的。",
+    "answerOptions": [
+      {"text": "冰棍的起源。", "isCorrect": false, "rationale": "雖然提到冰棍的誕生，但重點是誕生的原因。"},
+      {"text": "發明往往源於意外。", "isCorrect": true, "rationale": "冰棍是因為攪拌棒遺忘在外面，意外凍結而成，說明了發明有時來自意外。"},
+      {"text": "愛迪生自小已是發明家。", "isCorrect": false, "rationale": "文中沒有提到愛迪生。"},
+      {"text": "冰棍的製作方法。", "isCorrect": false, "rationale": "文中沒有詳細說明製作方法。"}
+    ]
+  },
+  {
+    "questionNumber": 64,
+    "question": "「人們往往從大自然獲得發明的靈感，例如有科研公司模仿擁有尼龍兩倍彈性、鋼鐵五倍強度的蜘蛛絲，製造出比傳統物料輕巧百分之十五、柔軟和強韌兼具的環保纖維。」\n\n上面一段文字主要說明甚麼？",
+    "hint": "留意開首句。",
+    "answerOptions": [
+      {"text": "蜘蛛絲的特性。", "isCorrect": false, "rationale": "蜘蛛絲只是例子，重點在大自然給發明的靈感。"},
+      {"text": "科研公司的成就。", "isCorrect": false, "rationale": "科研公司只是舉例。"},
+      {"text": "蜘蛛絲是新興的纖維物料。", "isCorrect": false, "rationale": "文中不是說蜘蛛絲本身是新興物料。"},
+      {"text": "大自然給予人們發明靈感。", "isCorrect": true, "rationale": "開首句就是主題句，以蜘蛛絲為例說明大自然給發明靈感。"}
+    ]
+  },
+  {
+    "questionNumber": 65,
+    "question": "上文提到科研公司模仿蜘蛛絲製造環保纖維，這種做法屬於以下哪種說明手法？",
+    "hint": "想想用具體例子來說明抽象概念是甚麼手法。",
+    "answerOptions": [
+      {"text": "定義說明", "isCorrect": false, "rationale": "沒有為事物下定義。"},
+      {"text": "舉例說明", "isCorrect": true, "rationale": "用科研公司模仿蜘蛛絲的具體事例來說明「從大自然獲得發明靈感」這個觀點。"},
+      {"text": "數據說明", "isCorrect": false, "rationale": "雖然有數字（兩倍、五倍等），但主要還是舉例說明。"},
+      {"text": "比喻說明", "isCorrect": false, "rationale": "沒有使用比喻來說明。"}
+    ]
+  },
+  {
+    "questionNumber": 66,
+    "question": "這部電影在今天上映，主要講述一個少年運用______破案的故事。\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是運用智慧和計謀。",
+    "answerOptions": [
+      {"text": "謀略", "isCorrect": true, "rationale": "謀略指計謀和策略，適合描述運用智慧破案。"},
+      {"text": "暴力", "isCorrect": false, "rationale": "破案不一定使用暴力。"},
+      {"text": "財富", "isCorrect": false, "rationale": "文中沒有提到用錢。"},
+      {"text": "運氣", "isCorrect": false, "rationale": "破案靠的是智慧，不是運氣。"}
+    ]
+  },
+  {
+    "questionNumber": 67,
+    "question": "魔術師在舞台上因為表演失誤而______，羞得無地自容。\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是在眾人面前出醜。",
+    "answerOptions": [
+      {"text": "出眾", "isCorrect": false, "rationale": "出眾是超越眾人，不是出醜。"},
+      {"text": "出醜", "isCorrect": true, "rationale": "出醜指在眾人面前丟臉，與後文「羞得無地自容」呼應。"},
+      {"text": "出賣", "isCorrect": false, "rationale": "出賣是背叛的意思。"},
+      {"text": "出巡", "isCorrect": false, "rationale": "出巡是外出巡視的意思。"}
+    ]
+  },
+  {
+    "questionNumber": 68,
+    "question": "姐姐______弟弟拿走了她的尺子，後來發現原來尺子被自己收進了抽屜裏。\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是錯誤地認為。",
+    "answerOptions": [
+      {"text": "誤會", "isCorrect": true, "rationale": "誤會指錯誤地理解或認為，姐姐錯誤地以為弟弟拿了尺子。"},
+      {"text": "確認", "isCorrect": false, "rationale": "確認是證實的意思，與後文發現自己搞錯了矛盾。"},
+      {"text": "明白", "isCorrect": false, "rationale": "明白是了解的意思，如果明白就不會怪錯弟弟。"},
+      {"text": "質疑", "isCorrect": false, "rationale": "質疑是提出疑問，語氣比誤會輕。"}
+    ]
+  },
+  {
+    "questionNumber": 69,
+    "question": "「他自小刻苦耐勞、勤奮用功，讓他______了今時今日的成就。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是取得、獲得。",
+    "answerOptions": [
+      {"text": "取得", "isCorrect": true, "rationale": "取得指獲得，搭配「成就」非常合適。"},
+      {"text": "失去", "isCorrect": false, "rationale": "失去與「刻苦耐勞、勤奮用功」矛盾。"},
+      {"text": "放棄", "isCorrect": false, "rationale": "放棄成就與文意相反。"},
+      {"text": "辜負", "isCorrect": false, "rationale": "辜負是對不起別人的期望。"}
+    ]
+  },
+  {
+    "questionNumber": 70,
+    "question": "「弟弟時常沒有______地吃東西，一下子吃得太多便會拉肚子。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是控制、限制。",
+    "answerOptions": [
+      {"text": "節制", "isCorrect": true, "rationale": "節制指控制約束，沒有節制地吃東西正符合文意。"},
+      {"text": "規範", "isCorrect": false, "rationale": "規範指標準規則，不適合形容吃東西。"},
+      {"text": "順序", "isCorrect": false, "rationale": "順序指先後次序。"},
+      {"text": "間斷", "isCorrect": false, "rationale": "間斷指不連續，與文意不符。"}
+    ]
+  },
+  {
+    "questionNumber": 71,
+    "question": "「父親______飲食業多年，現在於一家五星級酒店擔任主廚。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是長時期從事某行業。",
+    "answerOptions": [
+      {"text": "投身", "isCorrect": true, "rationale": "投身指投入某項事業，投身飲食業多年符合文意。"},
+      {"text": "參觀", "isCorrect": false, "rationale": "參觀只是短暫觀看。"},
+      {"text": "離開", "isCorrect": false, "rationale": "如果離開就不會擔任主廚。"},
+      {"text": "放棄", "isCorrect": false, "rationale": "放棄與擔任主廚矛盾。"}
+    ]
+  },
+  {
+    "questionNumber": 72,
+    "question": "「這名傷者情況______，需要送進深切治療部觀察。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是危險、緊急。",
+    "answerOptions": [
+      {"text": "穩定", "isCorrect": false, "rationale": "穩定就不需要送深切治療部。"},
+      {"text": "危殆", "isCorrect": true, "rationale": "危殆指情況非常危險，需要送深切治療部。"},
+      {"text": "好轉", "isCorrect": false, "rationale": "好轉就不需要深切治療。"},
+      {"text": "明朗", "isCorrect": false, "rationale": "明朗是清楚、樂觀的意思。"}
+    ]
+  },
+  {
+    "questionNumber": 73,
+    "question": "「郵政局日前發行了限量發售的紀念郵票，在很短時間之內就已經被搶購一空。」句中畫線部分可以用哪個詞語代替？",
+    "hint": "形容在短時間內迅速賣光。",
+    "answerOptions": [
+      {"text": "瞬間", "isCorrect": false, "rationale": "瞬間是形容極短時間，但不能單獨使用代替整個部分。"},
+      {"text": "轉眼間", "isCorrect": true, "rationale": "轉眼間形容極短的時間，可以代替「在很短時間之內」。"},
+      {"text": "長期", "isCorrect": false, "rationale": "長期是長時間，與原意相反。"},
+      {"text": "逐步", "isCorrect": false, "rationale": "逐步是慢慢來的意思。"}
+    ]
+  },
+  {
+    "questionNumber": 74,
+    "question": "「這個非牟利組織是由爺爺在數十年前首先______的，至今他仍然有『永遠榮譽會長』的頭銜。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是創立、建立。",
+    "answerOptions": [
+      {"text": "創辦", "isCorrect": true, "rationale": "創辦指創立建立，適合描述組織的成立。"},
+      {"text": "關閉", "isCorrect": false, "rationale": "關閉與至今仍有頭銜矛盾。"},
+      {"text": "加入", "isCorrect": false, "rationale": "加入是參與，不是創立。"},
+      {"text": "參觀", "isCorrect": false, "rationale": "參觀是短暫活動。"}
+    ]
+  },
+  {
+    "questionNumber": 75,
+    "question": "「經過數個月的______和計劃，這個運動攝影展終於順利舉行。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是事先準備。",
+    "answerOptions": [
+      {"text": "事後檢討", "isCorrect": false, "rationale": "事後檢討是活動之後做的事情。"},
+      {"text": "事先預備", "isCorrect": true, "rationale": "事先預備指事前準備，與「計劃」並列，符合文意。"},
+      {"text": "臨時安排", "isCorrect": false, "rationale": "臨時安排是即興的，與「數個月」矛盾。"},
+      {"text": "即興發揮", "isCorrect": false, "rationale": "即興發揮是沒有準備。"}
+    ]
+  },
+  {
+    "questionNumber": 76,
+    "question": "「表哥不但遊遍了歐洲，______登上了阿爾卑斯山山頂。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "表示更進一步。",
+    "answerOptions": [
+      {"text": "甚至", "isCorrect": true, "rationale": "「不但……甚至……」表示更進一層，遊遍歐洲已經很不簡單，登頂阿爾卑斯山更進一步。"},
+      {"text": "而且", "isCorrect": false, "rationale": "雖然「不但……而且……」也合理，但「甚至」更能強調登山的難度更高。"},
+      {"text": "可是", "isCorrect": false, "rationale": "可是表示轉折，與文意不符。"},
+      {"text": "否則", "isCorrect": false, "rationale": "否則表示反面結果。"}
+    ]
+  },
+  {
+    "questionNumber": 77,
+    "question": "以下哪個句子中的「不但……甚至……」使用正確？",
+    "hint": "「不但……甚至……」表示程度遞進。",
+    "answerOptions": [
+      {"text": "他不但是班長，甚至是學生會的成員。", "isCorrect": false, "rationale": "班長和學生會成員的關係不明確，而且是學生會成員不一定比班長更高級。"},
+      {"text": "姐姐不但無法完成賽事，甚至在比賽中受了傷。", "isCorrect": false, "rationale": "在比賽中受傷是無法完成賽事的原因，邏輯顛倒了。應該改為：姐姐不但在比賽中受了傷，甚至無法完成賽事。"},
+      {"text": "黃鼠狼不但偷不了雞蛋，甚至被農夫活捉了。", "isCorrect": true, "rationale": "偷不了雞蛋已經失敗，被活捉是更嚴重的後果，程度遞進合理。"},
+      {"text": "他不但是個好學生，甚至功課很好。", "isCorrect": false, "rationale": "好學生和功課好是同一層次，沒有遞進關係。"}
+    ]
+  },
+  {
+    "questionNumber": 78,
+    "question": "「互相指責對解決問題沒有幫助，______增添團隊間的裂縫。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "表示更進一步。",
+    "answerOptions": [
+      {"text": "甚至", "isCorrect": true, "rationale": "沒有幫助已經不好，增添裂縫更嚴重，用「甚至」表示遞進。"},
+      {"text": "因此", "isCorrect": false, "rationale": "因此表示因果，不是遞進。"},
+      {"text": "然而", "isCorrect": false, "rationale": "然而表示轉折。"},
+      {"text": "或者", "isCorrect": false, "rationale": "或者表示選擇。"}
+    ]
+  },
+  {
+    "questionNumber": 79,
+    "question": "「就算我沒有做義工的經驗，______」\n\n以下哪項最適合完成以上句子？",
+    "hint": "「就算……也……」表示讓步假設。",
+    "answerOptions": [
+      {"text": "也願意嘗試參與。", "isCorrect": true, "rationale": "「就算……也……」表示即使條件不足（沒有經驗），仍然願意做（嘗試參與）。"},
+      {"text": "因為我沒有時間。", "isCorrect": false, "rationale": "「因為」表示原因，與「就算」不配對。"},
+      {"text": "但是我很有興趣。", "isCorrect": false, "rationale": "「但是」表示轉折，但「就算」應配「也」。"},
+      {"text": "否則我會很失望。", "isCorrect": false, "rationale": "「否則」表示反面結果。"}
+    ]
+  },
+  {
+    "questionNumber": 80,
+    "question": "「就算志強體力充沛，______」以下哪項最適合完成以上句子？",
+    "hint": "留意「就算……也……」的配對。",
+    "answerOptions": [
+      {"text": "也憑着堅毅的態度完成了馬拉松。", "isCorrect": false, "rationale": "體力充沛是完成馬拉松的有利條件，用「就算」不合理。"},
+      {"text": "也未必能完成這場艱辛的馬拉松。", "isCorrect": true, "rationale": "用「就算」表示讓步，即使體力充沛，米拉松太艱辛也未必能完成。"},
+      {"text": "所以輕鬆完成了比賽。", "isCorrect": false, "rationale": "「所以」表示結果，與「就算」不配對。"},
+      {"text": "因為他訓練有素。", "isCorrect": false, "rationale": "「因為」表示原因，與「就算」不配對。"}
+    ]
+  },
+  {
+    "questionNumber": 81,
+    "question": "以下哪個句子中的「就算」使用正確？",
+    "hint": "「就算……也……」表示讓步假設。",
+    "answerOptions": [
+      {"text": "就算今天下雨，所以我們取消了戶外活動。", "isCorrect": false, "rationale": "「就算」應配「也」，不是「所以」。應為：就算今天下雨，我們也照常舉行活動。"},
+      {"text": "就算今天下雨，我們也如期舉行運動會。", "isCorrect": true, "rationale": "「就算……也……」表示即使下雨，仍然如期舉行，用法正確。"},
+      {"text": "就算今天下雨，因為天氣預報說會放晴。", "isCorrect": false, "rationale": "前後矛盾，下雨和放晴不能並存。"},
+      {"text": "就算今天下雨，否則我們就會取消活動。", "isCorrect": false, "rationale": "「否則」與「就算」不配對。"}
+    ]
+  },
+  {
+    "questionNumber": 82,
+    "question": "「我們必須多吃蔬菜，______難以吸收均衡的營養。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "表示如果不這樣的話。",
+    "answerOptions": [
+      {"text": "否則", "isCorrect": true, "rationale": "否則表示如果不這樣做的反面結果，不吃蔬菜就難以吸收均衡營養。"},
+      {"text": "而且", "isCorrect": false, "rationale": "而且表示遞進。"},
+      {"text": "因此", "isCorrect": false, "rationale": "因此表示因果，與文意不符。"},
+      {"text": "然而", "isCorrect": false, "rationale": "然而表示轉折。"}
+    ]
+  },
+  {
+    "questionNumber": 83,
+    "question": "「我們要早點出發，______」以下哪項最適合完成以上句子？",
+    "hint": "「否則」表示反面結果。",
+    "answerOptions": [
+      {"text": "否則很難看見今晚的星空。", "isCorrect": true, "rationale": "早點出發的原因是要看到星空，否則（不早點出發）就看不到。"},
+      {"text": "因此我們準備好了。", "isCorrect": false, "rationale": "「因此」表示因果，與「否則」不配對。"},
+      {"text": "而且我們帶了望远镜。", "isCorrect": false, "rationale": "「而且」表示遞進。"},
+      {"text": "但是天還沒黑。", "isCorrect": false, "rationale": "「但是」表示轉折。"}
+    ]
+  },
+  {
+    "questionNumber": 84,
+    "question": "「雖然他們是兄弟，______性格截然不同。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "表示轉折關係。",
+    "answerOptions": [
+      {"text": "然而", "isCorrect": true, "rationale": "「雖然……然而……」表示轉折，兄弟卻性格不同，符合邏輯。"},
+      {"text": "所以", "isCorrect": false, "rationale": "「所以」表示因果，兄弟和性格不同不是因果關係。"},
+      {"text": "而且", "isCorrect": false, "rationale": "「而且」表示遞進。"},
+      {"text": "否則", "isCorrect": false, "rationale": "「否則」表示反面結果。"}
+    ]
+  },
+  {
+    "questionNumber": 85,
+    "question": "「這棵鳳凰木現在還很小，______將來一定能長成大樹。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "表示轉折，對比現在和將來。",
+    "answerOptions": [
+      {"text": "然而", "isCorrect": true, "rationale": "然而表示轉折，現在雖小，但將來能長大。"},
+      {"text": "因此", "isCorrect": false, "rationale": "因此表示因果，小和將來長大不是因果關係。"},
+      {"text": "否則", "isCorrect": false, "rationale": "否則表示反面結果。"},
+      {"text": "因為", "isCorrect": false, "rationale": "因為表示原因。"}
+    ]
+  },
+  {
+    "questionNumber": 86,
+    "question": "「別看大熊貓外表溫馴可愛，其實牠性情______，在古代更被視為跟老虎並列的猛獸。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是兇猛、厲害。",
+    "answerOptions": [
+      {"text": "溫馴", "isCorrect": false, "rationale": "溫馴是溫柔馴良，與後文猛獸矛盾。"},
+      {"text": "可愛", "isCorrect": false, "rationale": "可愛是開頭的描述，不是真實性情。"},
+      {"text": "兇悍", "isCorrect": true, "rationale": "兇悍指兇猛強悍，與「跟老虎並列的猛獸」呼應。"},
+      {"text": "膽小", "isCorrect": false, "rationale": "膽小與猛獸矛盾。"}
+    ]
+  },
+  {
+    "questionNumber": 87,
+    "question": "「戰士______地抵抗敵軍的攻擊，經過數天的激戰，最終成功守住了陣地。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是勇敢、無畏。",
+    "answerOptions": [
+      {"text": "懦弱", "isCorrect": false, "rationale": "懦弱是膽小怕事，與成功守住陣地矛盾。"},
+      {"text": "勇猛", "isCorrect": true, "rationale": "勇猛指勇敢有力，形容戰士奮勇抵抗非常貼切。"},
+      {"text": "猶豫", "isCorrect": false, "rationale": "猶豫是遲疑不決。"},
+      {"text": "害怕", "isCorrect": false, "rationale": "害怕與後文成功守住陣地矛盾。"}
+    ]
+  },
+  {
+    "questionNumber": 88,
+    "question": "「這位作曲家被發現______別人的曲子，以致聲名掃地。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是未經許可複製他人作品。",
+    "answerOptions": [
+      {"text": "創作", "isCorrect": false, "rationale": "創作是原創，與聲名掃地矛盾。"},
+      {"text": "模仿", "isCorrect": false, "rationale": "模仿是學習借鑑，不一定會聲名掃地。"},
+      {"text": "效法", "isCorrect": false, "rationale": "效法是學習好的方面，不會聲名掃地。"},
+      {"text": "抄襲", "isCorrect": true, "rationale": "抄襲指未經許可複製他人作品，是違反版權的行為，會導致聲名掃地。"}
+    ]
+  },
+  {
+    "questionNumber": 89,
+    "question": "「芷晴擁有路不拾遺的精神，值得我們______」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "意思是學習、仿效。",
+    "answerOptions": [
+      {"text": "抄襲", "isCorrect": false, "rationale": "抄襲是貶義詞，指複製他人作品。"},
+      {"text": "效法", "isCorrect": true, "rationale": "效法是學習榜樣，值得效法是褒義用法。"},
+      {"text": "取笑", "isCorrect": false, "rationale": "取笑是嘲笑，與好品德矛盾。"},
+      {"text": "批評", "isCorrect": false, "rationale": "批評是負面評價。"}
+    ]
+  },
+  {
+    "questionNumber": 90,
+    "question": "請選出正確排列的句子順序：\n\nA. 成為風靡全球的小說角色\nB. 彼得潘是蘇格蘭作家巴里筆下的人物\nC. 他穿着一身由樹葉做的衣服\nD. 他那長不大的小孩形象深入民心\nE. 在一個叫夢幻島的地方生活",
+    "hint": "先介紹人物，再描述外貌，然後說明他的故事。",
+    "answerOptions": [
+      {"text": "B → C → E → D → A", "isCorrect": false, "rationale": "先說角色風靡全球才說形象深入民心，次序顛倒了。"},
+      {"text": "B → C → E → A → D", "isCorrect": false, "rationale": "「風靡全球」應該放在最後作為總結。"},
+      {"text": "B → E → C → D → A", "isCorrect": true, "rationale": "先介紹彼得潘是巴里筆下人物（B），在夢幻島生活（E），穿着樹葉衣服（C），形象深入民心（D），最後成為風靡全球的角色（A）。"},
+      {"text": "C → B → E → D → A", "isCorrect": false, "rationale": "先說衣着才介紹人物，次序不當。"}
+    ]
+  },
+  {
+    "questionNumber": 91,
+    "question": "請選出正確排列的句子順序：\n\nA. 然後帶着大批財富離去\nB. 阿里巴巴是一個家境貧窮的樵夫\nC. 於是趁着強盜不在時使用暗語進入巢穴\nD. 他在砍柴時發現了強盜的巢穴\nE. 並聽見強盜使用暗語開門和關門",
+    "hint": "按故事發展的時間順序排列。",
+    "answerOptions": [
+      {"text": "B → D → E → C → A", "isCorrect": true, "rationale": "先介紹阿里巴巴（B），發現巢穴（D），聽到暗語（E），趁機進入（C），最後帶財富離去（A）。"},
+      {"text": "D → B → E → C → A", "isCorrect": false, "rationale": "未介紹人物就說發現巢穴，不合邏輯。"},
+      {"text": "B → D → C → E → A", "isCorrect": false, "rationale": "還未聽到暗語就知道暗語進入巢穴，不合邏輯。"},
+      {"text": "D → E → B → C → A", "isCorrect": false, "rationale": "敘述混亂，先說發現才介紹人物。"}
+    ]
+  },
+  {
+    "questionNumber": 92,
+    "question": "請排列以下詞語成為通順的句子：\n\n雖然 / 然而 / 截然不同 / 他們 / 性格 / 是 / 兄弟",
+    "hint": "注意關聯詞「雖然……然而……」的搭配。",
+    "answerOptions": [
+      {"text": "他們雖然是兄弟，然而性格截然不同。", "isCorrect": true, "rationale": "「雖然……然而……」連接轉折關係，兄弟卻性格不同，句子通順合理。"},
+      {"text": "雖然是兄弟他們，性格然而截然不同。", "isCorrect": false, "rationale": "詞語次序混亂。"},
+      {"text": "性格他們雖然截然不同，然而兄弟是。", "isCorrect": false, "rationale": "句子不通順。"},
+      {"text": "他們性格雖然截然不同，然而兄弟是。", "isCorrect": false, "rationale": "意思反了，應該是兄弟卻不同，不是不同卻是兄弟。"}
+    ]
+  },
+  {
+    "questionNumber": 93,
+    "question": "請排列以下詞語成為通順的句子：\n\n現在 / 一定能 / 鳳凰木 / 長成 / 只是 / 將來 / 雖然 / 還很小",
+    "hint": "注意關聯詞「雖然……然而/但是……」的搭配。",
+    "answerOptions": [
+      {"text": "鳳凰木雖然現在還很小，將來一定能長成大樹。", "isCorrect": true, "rationale": "「雖然」表示讓步（現在小），轉折指出將來能長大，句子通順。"},
+      {"text": "雖然鳳凰木一定能長成，現在還很小將來。", "isCorrect": false, "rationale": "「一定能長成」和「還很小」矛盾，不能並列。"},
+      {"text": "將來鳳凰木一定能長成，雖然現在還很小。", "isCorrect": false, "rationale": "雖然意思正確，但「雖然」放在句尾不自然。"},
+      {"text": "鳳凰木將來一定能長成現在，雖然還很小。", "isCorrect": false, "rationale": "句子不通順。"}
+    ]
+  },
+  {
+    "questionNumber": 94,
+    "question": "「他想辦法，______。」以下哪項能與此句組成通順的句子，表示轉折關係？",
+    "hint": "注意句子之間的邏輯關係。",
+    "answerOptions": [
+      {"text": "然而無法解決問題。", "isCorrect": true, "rationale": "「然而」表示轉折，想了辦法卻無法解決問題，合乎邏輯。"},
+      {"text": "所以成功解決了問題。", "isCorrect": false, "rationale": "如果想辦法又成功解決，不需要用轉折詞。"},
+      {"text": "否則問題就會更嚴重。", "isCorrect": false, "rationale": "否則表示反面條件，與文意不符。"},
+      {"text": "以及找到了答案。", "isCorrect": false, "rationale": "以及表示並列，與轉折關係不符。"}
+    ]
+  },
+  {
+    "questionNumber": 95,
+    "question": "「今天的晚飯太豐富了，______」以下哪項最適合完成以上句子？",
+    "hint": "想想太豐富會導致甚麼結果。",
+    "answerOptions": [
+      {"text": "就算薇敏想吃水果，也吃不下去了。", "isCorrect": true, "rationale": "「就算……也……」表示即使想吃，也因為太飽而吃不下，合乎邏輯。"},
+      {"text": "否則薇敏會很失望。", "isCorrect": false, "rationale": "否則表示反面結果，與太豐富沒有直接關係。"},
+      {"text": "因此薇敏不想吃飯。", "isCorrect": false, "rationale": "太豐富卻不想吃飯，不合邏輯。"},
+      {"text": "然而薇敏沒有胃口。", "isCorrect": false, "rationale": "太豐富和沒有胃口矛盾。"}
+    ]
+  },
+  {
+    "questionNumber": 96,
+    "question": "「紗窗破了一個小洞，______」以下哪項最適合完成以上句子？",
+    "hint": "想想紗窗有洞會怎樣。",
+    "answerOptions": [
+      {"text": "就算加以修補，也無補於事了。", "isCorrect": true, "rationale": "「就算……也……」表示即使修補也沒用（因為已經太遲或洞太大）。"},
+      {"text": "否則蚊子會飛進來。", "isCorrect": false, "rationale": "否則表示反面結果，但前面是陳述事實，不是條件。"},
+      {"text": "所以我們要拆掉它。", "isCorrect": false, "rationale": "有洞就要拆掉，不合理。"},
+      {"text": "然而它很美觀。", "isCorrect": false, "rationale": "破洞和美观没有關聯。"}
+    ]
+  },
+  {
+    "questionNumber": 97,
+    "question": "「嘉嘉品性______，經常為人設想，怪不得同學都喜歡跟她結交。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "形容人心地好、為人着想。",
+    "answerOptions": [
+      {"text": "陰險", "isCorrect": false, "rationale": "陰險是貶義詞，與「為人設想」矛盾。"},
+      {"text": "美好", "isCorrect": false, "rationale": "美好通常形容事物或生活，不太用來形容品性。"},
+      {"text": "善良", "isCorrect": true, "rationale": "善良指心地好、富同情心，與為人設想、受歡迎呼應。"},
+      {"text": "兇惡", "isCorrect": false, "rationale": "兇惡與全文意思相反。"}
+    ]
+  },
+  {
+    "questionNumber": 98,
+    "question": "「叔叔回家後發現家裏______，懷疑被賊人入屋行劫，於是急忙報警。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "形容雜亂無章、混亂的樣子。",
+    "answerOptions": [
+      {"text": "有條不紊", "isCorrect": false, "rationale": "有條不紊是整齊有序，與被賊入屋行劫矛盾。"},
+      {"text": "清楚明白", "isCorrect": false, "rationale": "清楚明白不適合形容家中狀況。"},
+      {"text": "凌亂不堪", "isCorrect": true, "rationale": "凌亂不堪指非常雜亂，符合被賊人搜掠過的情景。"},
+      {"text": "井井有條", "isCorrect": false, "rationale": "井井有條是整齊，與行劫矛盾。"}
+    ]
+  },
+  {
+    "questionNumber": 99,
+    "question": "「這個實驗室看似平平無奇，______卻聚集了全國頂尖的科學家。」\n\n以下哪個詞語最適合填入以上空格？",
+    "hint": "表示轉折，對比外表和實際。",
+    "answerOptions": [
+      {"text": "因此", "isCorrect": false, "rationale": "因此表示因果，外表平凡和頂尖科學家之間不是因果。"},
+      {"text": "而且", "isCorrect": false, "rationale": "而且表示遞進。"},
+      {"text": "然而", "isCorrect": false, "rationale": "然而表示轉折，但這個轉折詞在句子中的位置不太適合，因為句子中「卻」已經表示了轉折。"},
+      {"text": "但", "isCorrect": true, "rationale": "外表平平無奇，但（卻）有頂尖科學家，用「但」表示轉折最自然。"}
+    ]
+  },
+  {
+    "questionNumber": 100,
+    "question": "以下哪個詞語中的「不」字在朗讀時需要變調（讀第二聲）？\n\nA. 不行　　B. 不要　　C. 不能　　D. 不好",
+    "hint": "「不」字在第四聲字前面要變調讀第二聲（bú）。",
+    "answerOptions": [
+      {"text": "不行", "isCorrect": false, "rationale": "「行」是第二聲，「不」讀第四聲（bù xíng）。"},
+      {"text": "不要", "isCorrect": true, "rationale": "「要」是第四聲，「不」要變調讀第二聲（bú yào）。"},
+      {"text": "不能", "isCorrect": false, "rationale": "「能」是第二聲，「不」讀第四聲（bù néng）。"},
+      {"text": "不好", "isCorrect": false, "rationale": "「好」是第三聲，「不」讀第四聲（bù hǎo）。"}
+    ]
+  }
+]

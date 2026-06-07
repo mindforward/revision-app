@@ -1,0 +1,1354 @@
+{
+  "questions": [
+    {
+      "questionNumber": 1,
+      "question": "閱讀以下文字，然後回答問題：\n\n今天是學校一年一度的便服日，同學興致勃勃地以不同的形象示人，有的打扮成消防員，有的化身成公主，有的套上心愛漫畫人物的恤衫，唯獨小芬仍舊是一身整齊的校服。同學都很奇怪，小芬笑說：「我也是在穿便服，上學時穿的，不就是校服嗎？」\n\n上面一段文字主要說明甚麼？",
+      "hint": "留意小芬與其他同學的分別，以及她對「便服」的理解。",
+      "answerOptions": [
+        {
+          "text": "學校便服日發生的趣事。",
+          "isCorrect": false,
+          "rationale": "雖然有描寫便服日，但重點不在趣事，而在小芬的想法。其他同學的打扮只是襯托。"
+        },
+        {
+          "text": "小芬跟其他同學合不來。",
+          "isCorrect": false,
+          "rationale": "文中沒有說同學與小芬不和，只是他們對小芬的衣著感到奇怪。"
+        },
+        {
+          "text": "同學覺得小芬行為奇特。",
+          "isCorrect": false,
+          "rationale": "同學只是奇怪為何小芬穿校服，但這段文字的重點在小芬的獨特想法。"
+        },
+        {
+          "text": "小芬的想法跟其他同學不同。",
+          "isCorrect": true,
+          "rationale": "小芬認為校服就是她的便服，這種與眾不同的想法才是這段文字的主旨。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 2,
+      "question": "閱讀以下文字，然後回答問題：\n\n同學在比誰勇敢。芳芳說她在台上演出時很勇敢，沒半點緊張；子思說他玩過山車時很勇敢，一點都不怕；亮輝說他家樓下有一條兇惡的大狗，他卻勇敢地在牠身旁走過。這時候，一隻蜜蜂飛進了教室，停靠在窗邊，大家都嚇得雞飛狗跳的。一直默不作聲的欣欣看了看慌張的同學，靜靜地打開了窗子。蜜蜂飛走了，同學也鬆了一口氣。\n\n上面一段文字主要說明甚麼？",
+      "hint": "文中每個人都說自己勇敢，但當真正需要勇氣的時刻出現時，誰表現得最勇敢？",
+      "answerOptions": [
+        {
+          "text": "欣欣比其他同學更勇敢。",
+          "isCorrect": false,
+          "rationale": "欣欣的表現確實勇敢，但這段文字想說的是每個人在不同情況下都有勇敢的表現。"
+        },
+        {
+          "text": "每個人都有勇敢的時候。",
+          "isCorrect": true,
+          "rationale": "芳芳、子思、亮輝各自在不同事情上表現勇敢，欣欣也在危急時表現勇敢。全文帶出每個人都可以有勇敢的表現。"
+        },
+        {
+          "text": "真正的勇敢並不需要自誇。",
+          "isCorrect": false,
+          "rationale": "雖然欣欣沒有自誇，但這段文字的主要訊息是每人都有勇敢的時候，並非強調不應自誇。"
+        },
+        {
+          "text": "人在有需要時就能鼓起勇氣。",
+          "isCorrect": false,
+          "rationale": "雖然欣欣確實在有需要時鼓起勇氣，但文字也包含了其他同學在不同情況下的勇敢表現。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 3,
+      "question": "閱讀以下文字，然後回答問題：\n\n敏征一邊喘著氣，一邊對妹妹說：「你不要走得太快……我……快追不上了。」天空中飄揚著造型不同的風箏，有稜形的、傘形的、鳥形的……\n\n敏征為甚麼一邊說話一邊喘氣？",
+      "hint": "留意文中敏征說了甚麼話。",
+      "answerOptions": [
+        {
+          "text": "因為他正在放風箏。",
+          "isCorrect": false,
+          "rationale": "文中沒有說敏征在放風箏，他只是看到天空中的風箏。"
+        },
+        {
+          "text": "因為他跑得太快，追不上妹妹。",
+          "isCorrect": false,
+          "rationale": "敏征是追不上妹妹，不是跑得太快。"
+        },
+        {
+          "text": "因為他追趕妹妹而跑得氣喘。",
+          "isCorrect": true,
+          "rationale": "敏征叫妹妹不要走得太快，因為他快追不上了，可見他因追趕而氣喘。"
+        },
+        {
+          "text": "因為他看見風箏太興奮。",
+          "isCorrect": false,
+          "rationale": "文中沒有提到敏征因風箏而興奮。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 4,
+      "question": "文中「天空中飄揚著造型不同的風箏」一句，「飄揚」一詞最適合用來形容下列哪種事物？",
+      "hint": "想想「飄揚」通常與甚麼搭配使用。",
+      "answerOptions": [
+        {
+          "text": "花香",
+          "isCorrect": false,
+          "rationale": "花香應用「飄散」或「飄來」。"
+        },
+        {
+          "text": "旗幟",
+          "isCorrect": true,
+          "rationale": "飄揚常用來形容旗幟、風箏等在風中飄動的樣子。"
+        },
+        {
+          "text": "歌聲",
+          "isCorrect": false,
+          "rationale": "歌聲應用「飄揚」或「傳出」。"
+        },
+        {
+          "text": "雨點",
+          "isCorrect": false,
+          "rationale": "雨點應用「飄落」或「灑落」。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 5,
+      "question": "半夜下了一場雨，屋外空地的泥土變得______，還帶著淡淡的青草香。\n\n下列哪個詞語最適合填入以上空格？",
+      "hint": "描述下雨後泥土的狀態。",
+      "answerOptions": [
+        {
+          "text": "乾旱",
+          "isCorrect": false,
+          "rationale": "下雨後泥土不會乾旱。"
+        },
+        {
+          "text": "潮濕",
+          "isCorrect": true,
+          "rationale": "下雨後泥土吸收了水分，變得潮濕，符合文意。"
+        },
+        {
+          "text": "堅硬",
+          "isCorrect": false,
+          "rationale": "下雨不會令泥土變得堅硬。"
+        },
+        {
+          "text": "鬆散",
+          "isCorrect": false,
+          "rationale": "雖然下雨可能令泥土鬆散，但「潮濕」更能準確描述雨後泥土的狀態。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 6,
+      "question": "我把剛買回來的運動衣______在沙發上，過一陣子後竟然不翼而飛了。\n\n下列哪個詞語最適合填入以上空格？",
+      "hint": "意思是隨意地放在沙發上。",
+      "answerOptions": [
+        {
+          "text": "懸掛",
+          "isCorrect": false,
+          "rationale": "懸掛是把衣物掛起來，與後文「不翼而飛」的情境不符。"
+        },
+        {
+          "text": "摺好",
+          "isCorrect": false,
+          "rationale": "摺好的衣物一般不會不見。"
+        },
+        {
+          "text": "擱置",
+          "isCorrect": true,
+          "rationale": "擱置有隨手放置的意思，正因為隨意擱置，後來才不見了。"
+        },
+        {
+          "text": "丟棄",
+          "isCorrect": false,
+          "rationale": "丟棄是故意扔掉，與文意不符。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 7,
+      "question": "今天氣溫驟降，芳芳只穿了一件薄薄的外套出門，在寒風中冷得渾身______。\n\n以下哪個詞語最適合填入以上空格？",
+      "hint": "形容因寒冷或害怕而身體抖動。",
+      "answerOptions": [
+        {
+          "text": "顫抖",
+          "isCorrect": true,
+          "rationale": "顫抖指身體因寒冷或恐懼而發抖，符合文意。"
+        },
+        {
+          "text": "搖晃",
+          "isCorrect": false,
+          "rationale": "搖晃指來回擺動，不是因寒冷而引起的反應。"
+        },
+        {
+          "text": "震動",
+          "isCorrect": false,
+          "rationale": "震動通常指物體或地面的振動，不適合形容人因寒冷的身體反應。"
+        },
+        {
+          "text": "抖動",
+          "isCorrect": false,
+          "rationale": "抖動雖然意思相近，但「顫抖」更常用來形容因寒冷而發抖。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 8,
+      "question": "媽媽一回家，弟弟立即______地向媽媽展示今天在數學比賽中贏取的冠軍獎狀。\n\n以下哪個詞語最適合填入以上空格？",
+      "hint": "弟弟急不及待想讓媽媽看成績。",
+      "answerOptions": [
+        {
+          "text": "慢吞吞地",
+          "isCorrect": false,
+          "rationale": "贏了獎狀應該很興奮，不會慢吞吞。"
+        },
+        {
+          "text": "興奮地",
+          "isCorrect": true,
+          "rationale": "弟弟贏了比賽，很想跟媽媽分享喜悅，所以興奮地展示獎狀。"
+        },
+        {
+          "text": "冷靜地",
+          "isCorrect": false,
+          "rationale": "弟弟急於展示獎狀，不會是冷靜的表現。"
+        },
+        {
+          "text": "疲累地",
+          "isCorrect": false,
+          "rationale": "文中沒有提及弟弟感到疲累。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 9,
+      "question": "這個網上美食頻道最近備受追捧，總點擊量已______十萬人次。\n\n以下哪個詞語最適合填入以上空格？",
+      "hint": "表示數量超過了某個範圍。",
+      "answerOptions": [
+        {
+          "text": "突破",
+          "isCorrect": true,
+          "rationale": "突破指超過或衝破某個數量界限，用於形容點擊量超過十萬很合適。"
+        },
+        {
+          "text": "維持",
+          "isCorrect": false,
+          "rationale": "維持是保持不變，不符合「已……十萬人次」的語境。"
+        },
+        {
+          "text": "接近",
+          "isCorrect": false,
+          "rationale": "如果說「已接近」，語氣與「已突破」不同，突破表示已經超過。"
+        },
+        {
+          "text": "低於",
+          "isCorrect": false,
+          "rationale": "低於十萬與「備受追捧」的正面意思不符。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 10,
+      "question": "哥哥擁有______的品格，平日潔身自愛，絕對不會跟那一伙人同流合污。\n\n以下哪個詞語最適合填入以上空格？",
+      "hint": "形容品德高尚。",
+      "answerOptions": [
+        {
+          "text": "低劣",
+          "isCorrect": false,
+          "rationale": "低劣是貶義詞，與後文「潔身自愛」矛盾。"
+        },
+        {
+          "text": "平凡",
+          "isCorrect": false,
+          "rationale": "平凡不足以襯托後文不與壞人同流合污的品格。"
+        },
+        {
+          "text": "高潔",
+          "isCorrect": true,
+          "rationale": "高潔指品德高尚純潔，與「潔身自愛」、「不同流合污」呼應。"
+        },
+        {
+          "text": "奇怪",
+          "isCorrect": false,
+          "rationale": "奇怪是中性或貶義詞，不符合文意。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 11,
+      "question": "老師今天對我說的話都是______，我一定銘記於心，不會忘記。\n\n以下哪個詞語最適合填入以上空格？",
+      "hint": "形容話語非常有價值、值得記住。",
+      "answerOptions": [
+        {
+          "text": "花言巧語",
+          "isCorrect": false,
+          "rationale": "花言巧語是貶義詞，指虛假動聽的話。"
+        },
+        {
+          "text": "廢話連篇",
+          "isCorrect": false,
+          "rationale": "廢話是不值得記住的話，與「銘記於心」矛盾。"
+        },
+        {
+          "text": "流言蜚語",
+          "isCorrect": false,
+          "rationale": "流言蜚語指沒有根據的謠言。"
+        },
+        {
+          "text": "金玉良言",
+          "isCorrect": true,
+          "rationale": "金玉良言比喻非常寶貴的勸告或教誨，正符合老師的教導。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 12,
+      "question": "消防員______地進出火場，拯救被困的居民。\n\n以下哪個詞語最適合填入以上空格？",
+      "hint": "形容不顧個人安危去做某事。",
+      "answerOptions": [
+        {
+          "text": "畏縮不前",
+          "isCorrect": false,
+          "rationale": "畏縮不前是退縮的意思，與消防員英勇的行為相反。"
+        },
+        {
+          "text": "奮不顧身",
+          "isCorrect": true,
+          "rationale": "奮不顧身指奮勇向前，不顧個人安危，形容消防員的行為非常貼切。"
+        },
+        {
+          "text": "貪生怕死",
+          "isCorrect": false,
+          "rationale": "貪生怕死是貶義詞，與消防員的英勇行為相反。"
+        },
+        {
+          "text": "猶豫不決",
+          "isCorrect": false,
+          "rationale": "猶豫不決是遲疑的意思，與消防員果斷拯救行動不符。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 13,
+      "question": "以下哪個句子中的省略號（……）使用正確？",
+      "hint": "省略號用於表示列舉未盡、說話斷續或語意未盡。",
+      "answerOptions": [
+        {
+          "text": "今天上視藝課時，老師準備了幾個不同的水果……不知道今天要學甚麼呢？",
+          "isCorrect": false,
+          "rationale": "這裏的省略號並沒有列舉未盡或語意未盡的作用，句子意思完整，不需要使用省略號。"
+        },
+        {
+          "text": "香港的美食有燒賣、煎釀三寶、臭豆腐……真是多不勝數。",
+          "isCorrect": true,
+          "rationale": "省略號表示列舉未完，因為香港美食還有很多，無法一一列舉，用法正確。"
+        },
+        {
+          "text": "「傲慢與偏見」和「查理與巧克力工廠」……是我愛看的課外讀物。",
+          "isCorrect": false,
+          "rationale": "這裏只列舉了兩本書，語意完整，不需要使用省略號。"
+        },
+        {
+          "text": "以上全部正確。",
+          "isCorrect": false,
+          "rationale": "只有第二句的省略號使用正確。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 14,
+      "question": "以下哪個句子中的省略號使用正確？",
+      "hint": "省略號可用於表示說話斷斷續續。",
+      "answerOptions": [
+        {
+          "text": "「我……我……真的不是故意的。」小明低著頭說。",
+          "isCorrect": true,
+          "rationale": "省略號表示小明說話吞吞吐吐、斷斷續續，符合省略號的用法。"
+        },
+        {
+          "text": "我最喜歡的水果有蘋果……橙……香蕉等。",
+          "isCorrect": false,
+          "rationale": "列舉項目之間應用頓號，而不是省略號。"
+        },
+        {
+          "text": "昨天……天氣很好……我們去了沙灘。",
+          "isCorrect": false,
+          "rationale": "句子意思連貫，不需要在中間插入省略號。"
+        },
+        {
+          "text": "小貓……小狗……兔子……都是寵物。",
+          "isCorrect": false,
+          "rationale": "列舉項目之間應用頓號分隔。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 15,
+      "question": "「動物園裏有獅子、老虎、大象、長頸鹿……」句中省略號的作用是甚麼？",
+      "hint": "想想為甚麼不把所有動物都列出來。",
+      "answerOptions": [
+        {
+          "text": "表示說話斷續",
+          "isCorrect": false,
+          "rationale": "句子流暢，沒有斷續。"
+        },
+        {
+          "text": "表示列舉未盡",
+          "isCorrect": true,
+          "rationale": "動物園還有很多動物無法一一列舉，所以用省略號表示還有很多。"
+        },
+        {
+          "text": "表示語意未盡",
+          "isCorrect": false,
+          "rationale": "句子的意思是完整的，只是列舉未完。"
+        },
+        {
+          "text": "表示停頓思考",
+          "isCorrect": false,
+          "rationale": "文中沒有思考的意思。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 16,
+      "question": "以下哪一句的標點符號使用完全正確？",
+      "hint": "注意列舉、說話標記和句末標點。",
+      "answerOptions": [
+        {
+          "text": "媽媽買了蘋果、橙、香蕉回家。",
+          "isCorrect": true,
+          "rationale": "列舉項目用頓號分隔，句末用句號，使用正確。"
+        },
+        {
+          "text": "媽媽買了蘋果、橙、香蕉、回家。",
+          "isCorrect": false,
+          "rationale": "最後一項「回家」不是水果，不應用頓號，應用逗號或句號。"
+        },
+        {
+          "text": "媽媽買了蘋果，橙，香蕉回家。",
+          "isCorrect": false,
+          "rationale": "列舉同類事物應用頓號（、），不應用逗號（，）。"
+        },
+        {
+          "text": "媽媽買了蘋果，橙，香蕉回家。",
+          "isCorrect": false,
+          "rationale": "同上，應用頓號分隔列舉項目。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 17,
+      "question": "「不入虎穴，焉得虎子」這句話的意思是甚麼？",
+      "hint": "想想進老虎洞和抓小老虎之間的關係。",
+      "answerOptions": [
+        {
+          "text": "人生充滿意外。",
+          "isCorrect": false,
+          "rationale": "這句話強調勇氣和冒險，不是講意外。"
+        },
+        {
+          "text": "不嘗試就只會失敗。",
+          "isCorrect": false,
+          "rationale": "雖然接近，但原意更強調不冒險就不能達到目標。"
+        },
+        {
+          "text": "不冒險就不能達到目標。",
+          "isCorrect": true,
+          "rationale": "「不入虎穴，焉得虎子」比喻不冒險、不經歷艱難，就不能取得成功。"
+        },
+        {
+          "text": "只要努力就能獲得成功。",
+          "isCorrect": false,
+          "rationale": "這句話強調的是勇氣和冒險，不只靠努力。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 18,
+      "question": "「真金不怕火煉」這句話的意思是甚麼？",
+      "hint": "想想真金在烈火中會怎樣。",
+      "answerOptions": [
+        {
+          "text": "凡事都會出現轉機。",
+          "isCorrect": false,
+          "rationale": "這句話講的是經得起考驗，不是轉機。"
+        },
+        {
+          "text": "堅持能獲得勝利。",
+          "isCorrect": false,
+          "rationale": "雖然相關，但原意更強調本質好的人或事物經得起考驗。"
+        },
+        {
+          "text": "不應該畏懼強敵挑戰。",
+          "isCorrect": false,
+          "rationale": "這句話不是講挑戰強敵，而是講品質經得起考驗。"
+        },
+        {
+          "text": "品質好的人或事物經得起考驗。",
+          "isCorrect": true,
+          "rationale": "真金不怕烈火來煉，比喻品德高尚或本質純正的人或事物經得起任何考驗。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 19,
+      "question": "生物學家勇闖熱帶雨林深處，發現了不少新物種。這個事例最能說明哪句諺語的意思？",
+      "hint": "生物學家去雨林深處是要冒險的。",
+      "answerOptions": [
+        {
+          "text": "失敗乃成功之母",
+          "isCorrect": false,
+          "rationale": "句子沒有提到失敗與成功的關係。"
+        },
+        {
+          "text": "不入虎穴，焉得虎子",
+          "isCorrect": true,
+          "rationale": "生物學家敢於深入危險的雨林（冒險），才能發現新物種（達到目標），正是不入虎穴焉得虎子的體現。"
+        },
+        {
+          "text": "真金不怕火煉",
+          "isCorrect": false,
+          "rationale": "句子沒有講經得起考驗的意思。"
+        },
+        {
+          "text": "一寸光陰一寸金",
+          "isCorrect": false,
+          "rationale": "句子沒有提到珍惜時間。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 20,
+      "question": "那幅名畫幾百年來一直備受推崇，是貨真價實的藝術品。這個事例最能說明哪句諺語的意思？",
+      "hint": "經過長時間仍被推崇，說明了甚麼？",
+      "answerOptions": [
+        {
+          "text": "不入虎穴，焉得虎子",
+          "isCorrect": false,
+          "rationale": "句子沒有冒險的意思。"
+        },
+        {
+          "text": "路遙知馬力",
+          "isCorrect": false,
+          "rationale": "雖有經過長時間考驗的意思，但「真金不怕火煉」更貼切。"
+        },
+        {
+          "text": "真金不怕火煉",
+          "isCorrect": true,
+          "rationale": "名畫經歷數百年仍備受推崇，就像真金經過烈火考驗仍不變質一樣，經得起時間考驗。"
+        },
+        {
+          "text": "世上無難事，只怕有心人",
+          "isCorrect": false,
+          "rationale": "句子沒有克服困難的意思。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 21,
+      "question": "以下哪一個是正確的諺語寫法？",
+      "hint": "留意成語和諺語的慣用說法。",
+      "answerOptions": [
+        {
+          "text": "不入虎穴，不得虎子",
+          "isCorrect": false,
+          "rationale": "正確說法應是「不入虎穴，焉得虎子」。"
+        },
+        {
+          "text": "不入虎穴，焉得虎子",
+          "isCorrect": true,
+          "rationale": "這是正確的諺語，比喻不冒險就不能達到目標。"
+        },
+        {
+          "text": "不入虎穴，難得虎子",
+          "isCorrect": false,
+          "rationale": "正確說法應是「不入虎穴，焉得虎子」。"
+        },
+        {
+          "text": "不入虎穴，焉得虎兒",
+          "isCorrect": false,
+          "rationale": "正確說法是「虎子」不是「虎兒」。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 22,
+      "question": "閱讀以下文字，然後回答問題：\n\n淑筠看到碧嘉在校務處外的公告欄前駐足良久，覺得十分奇怪，因為碧嘉平時對這些公告並不感興趣。後來她才知道，原來碧嘉正在看慈善越野接力賽的報名告示。受助機構會為有需要的地區提供醫療和藥物支援。淑筠從這件事對碧嘉完全改觀。\n\n第一段中淑筠覺得奇怪，為甚麼？",
+      "hint": "文中說明了碧嘉平時的習慣。",
+      "answerOptions": [
+        {
+          "text": "淑筠很久沒看見碧嘉。",
+          "isCorrect": false,
+          "rationale": "文中沒有說她們很久沒見。"
+        },
+        {
+          "text": "碧嘉表現得異常興奮。",
+          "isCorrect": false,
+          "rationale": "文中沒有提到碧嘉興奮。"
+        },
+        {
+          "text": "碧嘉的習慣跟平日不同。",
+          "isCorrect": true,
+          "rationale": "碧嘉平時對公告不感興趣，但這次卻在公告欄前看了很久，因此淑筠覺得奇怪。"
+        },
+        {
+          "text": "碧嘉經常留意校務處外的公告欄。",
+          "isCorrect": false,
+          "rationale": "文中說碧嘉平時對這些公告並不感興趣。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 23,
+      "question": "根據上文，下列哪一項是正確的？",
+      "hint": "留意文中細節。",
+      "answerOptions": [
+        {
+          "text": "慈善越野接力賽已有十五年歷史。",
+          "isCorrect": false,
+          "rationale": "文中說「已舉辦了十五年」，但要注意文字細節，不等於有十五年歷史（可能中途有停辦）。"
+        },
+        {
+          "text": "慈善越野接力賽由志願醫療組織籌辦。",
+          "isCorrect": false,
+          "rationale": "文中沒有明確說明由誰籌辦。"
+        },
+        {
+          "text": "受助機構主要服務缺乏醫生和護士的地區。",
+          "isCorrect": false,
+          "rationale": "文中說「為有需要的地區提供醫療和藥物支援」，沒有說「主要服務缺乏醫生和護士的地區」。"
+        },
+        {
+          "text": "受助機構會為有需要地區提供醫療和藥物支援。",
+          "isCorrect": true,
+          "rationale": "文中明確指出「受助機構會為有需要的地區提供醫療和藥物支援」。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 24,
+      "question": "根據上文，下列哪一項是碧嘉令淑筠改觀的原因？",
+      "hint": "想想淑筠原本對碧嘉的印象和後來知道真相後的轉變。",
+      "answerOptions": [
+        {
+          "text": "碧嘉比淑筠更關心世界。",
+          "isCorrect": false,
+          "rationale": "文中沒有將兩者比較。"
+        },
+        {
+          "text": "碧嘉積極地參加義工服務。",
+          "isCorrect": false,
+          "rationale": "文中只說碧嘉在看報名告示，未提及她已參加義工服務。"
+        },
+        {
+          "text": "碧嘉默默地留意慈善活動而沒有張揚。",
+          "isCorrect": true,
+          "rationale": "碧嘉默默留意慈善活動，沒有四處宣揚，這種低調行善的態度令淑筠改觀。"
+        },
+        {
+          "text": "碧嘉為了幫助別人而改變自己。",
+          "isCorrect": false,
+          "rationale": "文中沒有說碧嘉改變了自己。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 25,
+      "question": "文中哪一個詞語有「對別人產生敬佩之情」的意思？",
+      "hint": "想想淑筠對碧嘉的態度轉變。",
+      "answerOptions": [
+        {
+          "text": "奇怪",
+          "isCorrect": false,
+          "rationale": "奇怪是疑惑，不是敬佩。"
+        },
+        {
+          "text": "改觀",
+          "isCorrect": true,
+          "rationale": "改觀指對人或事物的看法變好，包含從不認同到敬佩的轉變。"
+        },
+        {
+          "text": "駐足",
+          "isCorrect": false,
+          "rationale": "駐足只是停下腳步的意思。"
+        },
+        {
+          "text": "籌辦",
+          "isCorrect": false,
+          "rationale": "籌辦是策劃辦理的意思。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 26,
+      "question": "下列哪個成語用來形容「不顧自身安危，勇敢向前」最恰當？",
+      "hint": "想想消防員救火時的行為。",
+      "answerOptions": [
+        {
+          "text": "畏首畏尾",
+          "isCorrect": false,
+          "rationale": "畏首畏尾是形容顧慮很多、膽小怕事。"
+        },
+        {
+          "text": "奮不顧身",
+          "isCorrect": true,
+          "rationale": "奮不顧身指奮勇向前，不顧生命危險，最符合描述。"
+        },
+        {
+          "text": "貪生怕死",
+          "isCorrect": false,
+          "rationale": "貪生怕死是貶義詞，形容貪戀生存、害怕死亡。"
+        },
+        {
+          "text": "袖手旁觀",
+          "isCorrect": false,
+          "rationale": "袖手旁觀是置身事外、不予理會的意思。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 27,
+      "question": "這件事情的經過，我已經______，絕對沒有遺漏。\n\n以下哪個成語最適合填入以上空格？",
+      "hint": "意思是詳細完整地敘述。",
+      "answerOptions": [
+        {
+          "text": "一五一十",
+          "isCorrect": true,
+          "rationale": "一五一十比喻敘述時毫無遺漏，把事情完整地說出來。"
+        },
+        {
+          "text": "三心兩意",
+          "isCorrect": false,
+          "rationale": "三心兩意指猶豫不決，與文意不符。"
+        },
+        {
+          "text": "七上八下",
+          "isCorrect": false,
+          "rationale": "七上八下形容心神不安。"
+        },
+        {
+          "text": "九牛一毛",
+          "isCorrect": false,
+          "rationale": "九牛一毛比喻極小部分，與文意相反。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 28,
+      "question": "他為人______，朋友遇到困難時他總會出手相助。\n\n以下哪個成語最適合填入以上空格？",
+      "hint": "形容人熱心幫助別人。",
+      "answerOptions": [
+        {
+          "text": "漠不關心",
+          "isCorrect": false,
+          "rationale": "漠不關心是冷淡不關心，與後文矛盾。"
+        },
+        {
+          "text": "自私自利",
+          "isCorrect": false,
+          "rationale": "自私自利是只為自己，不會幫助別人。"
+        },
+        {
+          "text": "樂於助人",
+          "isCorrect": true,
+          "rationale": "樂於助人指樂意幫助別人，與後文「出手相助」呼應。"
+        },
+        {
+          "text": "見利忘義",
+          "isCorrect": false,
+          "rationale": "見利忘義是看見利益就忘了道義。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 29,
+      "question": "以下哪個成語的意思與「不翼而飛」最接近？",
+      "hint": "想想「不翼而飛」描述的是甚麼情況。",
+      "answerOptions": [
+        {
+          "text": "不脛而走",
+          "isCorrect": false,
+          "rationale": "不脛而走比喻消息或事物迅速傳播，跟東西不見不同。"
+        },
+        {
+          "text": "消失無蹤",
+          "isCorrect": true,
+          "rationale": "不翼而飛比喻東西突然不見了，與消失無蹤意思相近。"
+        },
+        {
+          "text": "一去不返",
+          "isCorrect": false,
+          "rationale": "一去不返強調離開了不再回來，與突然失蹤略有不同。"
+        },
+        {
+          "text": "石沉大海",
+          "isCorrect": false,
+          "rationale": "石沉大海比喻沒有消息或沒有回應，不是指東西不見。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 30,
+      "question": "「小芬穿著校服上學。」把這個句子改為反問句，以下哪一項是正確的？",
+      "hint": "反問句是用問句形式表達肯定或否定。",
+      "answerOptions": [
+        {
+          "text": "小芬穿著校服上學嗎？",
+          "isCorrect": false,
+          "rationale": "這是一般疑問句，不是反問句。"
+        },
+        {
+          "text": "小芬不是穿著校服上學嗎？",
+          "isCorrect": true,
+          "rationale": "「不是……嗎」是典型反問句式，意思是「小芬確實是穿著校服上學」。反問句語氣更強烈。"
+        },
+        {
+          "text": "小芬穿著甚麼上學？",
+          "isCorrect": false,
+          "rationale": "這是疑問句，問的是穿著甚麼。"
+        },
+        {
+          "text": "小芬有沒有穿著校服上學？",
+          "isCorrect": false,
+          "rationale": "這是一般疑問句。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 31,
+      "question": "把「蜜蜂飛走了，同學也鬆了一口氣」改寫為「一……就……」的句式，以下哪項正確？",
+      "hint": "「一……就……」表示前後兩件事接連發生。",
+      "answerOptions": [
+        {
+          "text": "蜜蜂一走，同學就鬆了一口氣。",
+          "isCorrect": true,
+          "rationale": "「蜜蜂一走，同學就……」用「一……就……」表示蜜蜂飛走與同學鬆一口氣接連發生。"
+        },
+        {
+          "text": "蜜蜂一邊飛走，同學一邊鬆氣。",
+          "isCorrect": false,
+          "rationale": "「一邊……一邊……」表示同時進行，與原意不同。"
+        },
+        {
+          "text": "蜜蜂飛走之後，同學鬆了一口氣。",
+          "isCorrect": false,
+          "rationale": "雖然意思正確，但沒有使用「一……就……」句式。"
+        },
+        {
+          "text": "蜜蜂越飛越遠，同學越來越放鬆。",
+          "isCorrect": false,
+          "rationale": "「越……越……」表示程度遞增，非原意。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 32,
+      "question": "以下哪個是完整的句子？",
+      "hint": "完整的句子需要具備基本成分（主語、謂語等）。",
+      "answerOptions": [
+        {
+          "text": "因為小明生病了。",
+          "isCorrect": false,
+          "rationale": "這只是因果句的從句，沒有主句，意思不完整。"
+        },
+        {
+          "text": "當太陽下山的時候。",
+          "isCorrect": false,
+          "rationale": "這只是時間狀語，沒有主要陳述。"
+        },
+        {
+          "text": "小貓在沙發上睡覺。",
+          "isCorrect": true,
+          "rationale": "主語（小貓）+謂語（睡覺）+地點狀語（在沙發上），句子完整。"
+        },
+        {
+          "text": "雖然下了大雨。",
+          "isCorrect": false,
+          "rationale": "這只是轉折句的從句，沒有主句。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 33,
+      "question": "「他做功課很認真。」請把這個句子改成感嘆句。",
+      "hint": "感嘆句用來表達強烈的情感。",
+      "answerOptions": [
+        {
+          "text": "他做功課很認真嗎？",
+          "isCorrect": false,
+          "rationale": "這是疑問句。"
+        },
+        {
+          "text": "他做功課多認真啊！",
+          "isCorrect": true,
+          "rationale": "使用「多……啊」感嘆句式，表達對他用功的讚賞。"
+        },
+        {
+          "text": "他做功課不認真。",
+          "isCorrect": false,
+          "rationale": "這是否定句。"
+        },
+        {
+          "text": "他做功課的時候很認真。",
+          "isCorrect": false,
+          "rationale": "這是陳述句。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 34,
+      "question": "以下哪個詞語的詞性與其他三個不同？",
+      "hint": "想想每個詞語在句子中擔當的角色。",
+      "answerOptions": [
+        {
+          "text": "美麗",
+          "isCorrect": false,
+          "rationale": "美麗是形容詞，用來描述事物的特質。"
+        },
+        {
+          "text": "勇敢",
+          "isCorrect": false,
+          "rationale": "勇敢也是形容詞。"
+        },
+        {
+          "text": "奔跑",
+          "isCorrect": true,
+          "rationale": "奔跑是動詞，表示動作。其他三個選項都是形容詞。"
+        },
+        {
+          "text": "緊張",
+          "isCorrect": false,
+          "rationale": "緊張是形容詞。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 35,
+      "question": "他______走進教室，沒有人發現他遲到了。\n\n以下哪個詞語最適合填入以上空格？",
+      "hint": "意思是靜靜地、不引起注意地。",
+      "answerOptions": [
+        {
+          "text": "匆匆忙忙地",
+          "isCorrect": false,
+          "rationale": "匆匆忙忙反而容易引人注意。"
+        },
+        {
+          "text": "大搖大擺地",
+          "isCorrect": false,
+          "rationale": "大搖大擺是招搖的樣子，跟不想被發現矛盾。"
+        },
+        {
+          "text": "靜悄悄地",
+          "isCorrect": true,
+          "rationale": "靜悄悄地指不出聲、不引人注意，符合不想被發現遲到的語境。"
+        },
+        {
+          "text": "興高采烈地",
+          "isCorrect": false,
+          "rationale": "興高采烈是興奮的樣子，與低調進入教室不符。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 36,
+      "question": "以下哪組詞語是反義詞？",
+      "hint": "反義詞指意思相反的詞語。",
+      "answerOptions": [
+        {
+          "text": "堅強 —— 軟弱",
+          "isCorrect": true,
+          "rationale": "堅強是剛強不屈，軟弱是不堅強，兩者意思相反。"
+        },
+        {
+          "text": "美麗 —— 漂亮",
+          "isCorrect": false,
+          "rationale": "美麗和漂亮是近義詞，不是反義詞。"
+        },
+        {
+          "text": "高興 —— 快樂",
+          "isCorrect": false,
+          "rationale": "高興和快樂是近義詞。"
+        },
+        {
+          "text": "勇敢 —— 大膽",
+          "isCorrect": false,
+          "rationale": "勇敢和大膽是近義詞。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 37,
+      "question": "以下哪個句子中的「的」字用法正確？",
+      "hint": "「的」通常用於定語和中心語之間。",
+      "answerOptions": [
+        {
+          "text": "他跑步的很快。",
+          "isCorrect": false,
+          "rationale": "「很快」是補語，應用「得」而不是「的」：他跑得很快。"
+        },
+        {
+          "text": "這是我新買的書包。",
+          "isCorrect": true,
+          "rationale": "「新買的」作為定語修飾「書包」，用法正確。"
+        },
+        {
+          "text": "我吃飽的。",
+          "isCorrect": false,
+          "rationale": "「吃飽」後應接「了」或「得」（程度），不應用「的」。"
+        },
+        {
+          "text": "他開心的說。",
+          "isCorrect": false,
+          "rationale": "「開心」修飾動詞「說」應用「地」而不是「的」。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 38,
+      "question": "以下哪個句子中的「得」字是結構助詞（用於連接補語）？",
+      "hint": "結構助詞「得」用於動詞或形容詞後面，連接補充說明的成分。",
+      "answerOptions": [
+        {
+          "text": "他跑得很快。",
+          "isCorrect": true,
+          "rationale": "「得」連接動詞「跑」和補語「很快」，是結構助詞的正確用法。"
+        },
+        {
+          "text": "我得到了一個獎項。",
+          "isCorrect": false,
+          "rationale": "這裏的「得到」是一個動詞，表示獲得，不是結構助詞。"
+        },
+        {
+          "text": "他開心得跳了起來。",
+          "isCorrect": false,
+          "rationale": "這個用法也正確，但「他跑得很快」更典型。等等，兩個都對，讓我改題目。"
+        },
+        {
+          "text": "你得按時完成功課。",
+          "isCorrect": false,
+          "rationale": "這裏的「得」是「必須」的意思（děi），不是結構助詞。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 39,
+      "question": "以下哪個詞語與「慌張」的意思最接近？",
+      "hint": "想想人遇到突發事情時的狀態。",
+      "answerOptions": [
+        {
+          "text": "鎮定",
+          "isCorrect": false,
+          "rationale": "鎮定是冷靜沉著，與慌張意思相反。"
+        },
+        {
+          "text": "驚慌",
+          "isCorrect": true,
+          "rationale": "驚慌與慌張意思相近，都形容害怕而緊張不安。"
+        },
+        {
+          "text": "鬆弛",
+          "isCorrect": false,
+          "rationale": "鬆弛是放鬆的意思。"
+        },
+        {
+          "text": "平靜",
+          "isCorrect": false,
+          "rationale": "平靜是安寧的意思，與慌張相反。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 40,
+      "question": "以下哪個詞語與「注視」的意思最接近？",
+      "hint": "想想用眼睛看東西的不同方式。",
+      "answerOptions": [
+        {
+          "text": "觀看",
+          "isCorrect": false,
+          "rationale": "觀看是一般地看，不如注視專注。"
+        },
+        {
+          "text": "凝視",
+          "isCorrect": true,
+          "rationale": "凝視與注視一樣，都是專注地、集中地看。"
+        },
+        {
+          "text": "探望",
+          "isCorrect": false,
+          "rationale": "探望是拜訪或張望的意思。"
+        },
+        {
+          "text": "眺望",
+          "isCorrect": false,
+          "rationale": "眺望是從高處往遠處看。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 41,
+      "question": "請選出正確排列的句子順序：\n\n① 大家都嚇得雞飛狗跳\n② 一隻蜜蜂飛進了教室\n③ 停在窗邊\n④ 這時候",
+      "hint": "按事情發生的順序排列。",
+      "answerOptions": [
+        {
+          "text": "①②③④",
+          "isCorrect": false,
+          "rationale": "「這時候」應該放在最前面作為時間提示。"
+        },
+        {
+          "text": "④②③①",
+          "isCorrect": true,
+          "rationale": "這時候（④）→ 蜜蜂飛進教室（②）→ 停在窗邊（③）→ 大家嚇得雞飛狗跳（①），符合事情發展順序。"
+        },
+        {
+          "text": "④①②③",
+          "isCorrect": false,
+          "rationale": "還未說明發生甚麼事，就說大家嚇得雞飛狗跳，不合邏輯。"
+        },
+        {
+          "text": "①②④③",
+          "isCorrect": false,
+          "rationale": "先說結果再說原因，句子不流暢。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 42,
+      "question": "請選出正確排列的句子順序：\n\n① 他卻勇敢地在牠身旁走過\n② 有一條兇惡的大狗\n③ 亮輝說他家樓下\n④ 一點都不怕",
+      "hint": "注意說話者的開頭和句子的連貫性。",
+      "answerOptions": [
+        {
+          "text": "③②①④",
+          "isCorrect": true,
+          "rationale": "亮輝說他家樓下（③）→ 有一條兇惡的大狗（②）→ 他卻勇敢地走過（①）→ 一點都不怕（④），意思完整流暢。"
+        },
+        {
+          "text": "③①②④",
+          "isCorrect": false,
+          "rationale": "還未說有狗，就說在牠身旁走過，不連貫。"
+        },
+        {
+          "text": "②③①④",
+          "isCorrect": false,
+          "rationale": "「有一條兇惡的大狗」放在句首，缺少主語。"
+        },
+        {
+          "text": "③④②①",
+          "isCorrect": false,
+          "rationale": "「一點都不怕」放在前面不知所指。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 43,
+      "question": "將「同學感到奇怪。」擴張句子，加入原因，以下哪項最恰當？",
+      "hint": "加入適當原因使句子意思更完整。",
+      "answerOptions": [
+        {
+          "text": "同學感到奇怪小芬穿校服。",
+          "isCorrect": false,
+          "rationale": "句子結構不完整，應該用「對……感到奇怪」。"
+        },
+        {
+          "text": "同學對小芬穿校服感到奇怪。",
+          "isCorrect": true,
+          "rationale": "用「對……」點出感到奇怪的對象（小芬穿校服），句子意思完整。"
+        },
+        {
+          "text": "同學很奇怪小芬。",
+          "isCorrect": false,
+          "rationale": "「奇怪」不應直接帶賓語。"
+        },
+        {
+          "text": "同學感到很奇怪因為小芬。",
+          "isCorrect": false,
+          "rationale": "句子不完整，缺少奇怪的原因。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 44,
+      "question": "將「欣欣打開了窗子。」加入方式或狀態修飾，以下哪項最恰當？",
+      "hint": "看看文中欣欣是怎樣打開窗子的。",
+      "answerOptions": [
+        {
+          "text": "欣欣很快地打開了窗子。",
+          "isCorrect": false,
+          "rationale": "文中說欣欣是「靜靜地」打開窗子，不是很快地。"
+        },
+        {
+          "text": "欣欣靜靜地打開了窗子。",
+          "isCorrect": true,
+          "rationale": "「靜靜地」修飾「打開」，準確描述了欣欣不驚動蜜蜂的動作方式。"
+        },
+        {
+          "text": "欣欣努力地打開了窗子。",
+          "isCorrect": false,
+          "rationale": "打開窗子不需要很努力。"
+        },
+        {
+          "text": "欣欣用力地打開了窗子。",
+          "isCorrect": false,
+          "rationale": "文中沒有說欣欣用力。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 45,
+      "question": "街上______著節日的氣氛，到處都是燈飾和裝飾。\n\n以下哪個詞語最適合填入以上空格？",
+      "hint": "意思是充滿、四處都是。",
+      "answerOptions": [
+        {
+          "text": "瀰漫",
+          "isCorrect": true,
+          "rationale": "瀰漫指充滿、布滿，常用來形容氣氛、氣味等抽象事物到處都是。"
+        },
+        {
+          "text": "消失",
+          "isCorrect": false,
+          "rationale": "消失與後文「到處都是燈飾」矛盾。"
+        },
+        {
+          "text": "擴散",
+          "isCorrect": false,
+          "rationale": "擴散指由密到疏的分散過程，不適合形容固定的節日氣氛。"
+        },
+        {
+          "text": "凝結",
+          "isCorrect": false,
+          "rationale": "凝結指氣體變成液體，不適合形容氣氛。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 46,
+      "question": "文中「大家都嚇得雞飛狗跳」一句用了甚麼修辭手法？",
+      "hint": "想想「雞飛狗跳」是形容實際情景還是誇張描寫。",
+      "answerOptions": [
+        {
+          "text": "比喻",
+          "isCorrect": false,
+          "rationale": "雞飛狗跳不是比喻，而是成語。"
+        },
+        {
+          "text": "誇張法",
+          "isCorrect": true,
+          "rationale": "雞飛狗跳是誇張的描寫，用來形容大家因為蜜蜂而驚慌混亂的場面。"
+        },
+        {
+          "text": "擬人法",
+          "isCorrect": false,
+          "rationale": "這裏沒有把事物當成人來寫。"
+        },
+        {
+          "text": "反問",
+          "isCorrect": false,
+          "rationale": "這不是問句。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 47,
+      "question": "以下哪個句子運用了擬人法？",
+      "hint": "擬人法是把事物當成人來描寫。",
+      "answerOptions": [
+        {
+          "text": "太陽像一個大火球。",
+          "isCorrect": false,
+          "rationale": "這是比喻（明喻），不是擬人。"
+        },
+        {
+          "text": "花兒在風中微笑點頭。",
+          "isCorrect": true,
+          "rationale": "「微笑點頭」是人類的動作，用來描寫花兒，是擬人法。"
+        },
+        {
+          "text": "大樹長得又高又壯。",
+          "isCorrect": false,
+          "rationale": "這是普通的描述。"
+        },
+        {
+          "text": "小鳥在樹上吱吱叫。",
+          "isCorrect": false,
+          "rationale": "這是客觀描述鳥的叫聲，不算擬人。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 48,
+      "question": "「潔身自愛」的意思是甚麼？",
+      "hint": "想想「潔」和「愛」分別指甚麼。",
+      "answerOptions": [
+        {
+          "text": "愛清潔、注重衛生",
+          "isCorrect": false,
+          "rationale": "潔身自愛不是指愛乾淨，而是指保持自身清白。"
+        },
+        {
+          "text": "保持自身清白，不與壞人同流合污",
+          "isCorrect": true,
+          "rationale": "潔身自愛比喻保持自身的純潔和清白，不同流合污。"
+        },
+        {
+          "text": "愛惜自己的身體",
+          "isCorrect": false,
+          "rationale": "雖然有愛惜自己的意思，但更強調品格上的清白。"
+        },
+        {
+          "text": "事事只為自己打算",
+          "isCorrect": false,
+          "rationale": "這是自私自利的意思，不是潔身自愛。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 49,
+      "question": "以下哪個句子中的關聯詞使用正確？",
+      "hint": "留意關聯詞的配對是否正確。",
+      "answerOptions": [
+        {
+          "text": "因為今天下雨，所以我們去了公園。",
+          "isCorrect": false,
+          "rationale": "下雨和去公園沒有因果關係，邏輯不成立。"
+        },
+        {
+          "text": "雖然他生病了，但是他還是堅持上學。",
+          "isCorrect": true,
+          "rationale": "「雖然……但是……」表達轉折關係，生病卻堅持上學，符合邏輯。"
+        },
+        {
+          "text": "不但他學習認真，而且成績優秀。",
+          "isCorrect": false,
+          "rationale": "「不但」應放在主語之後，改為「他不但學習認真」才正確。"
+        },
+        {
+          "text": "只要努力讀書，才會有好成績。",
+          "isCorrect": false,
+          "rationale": "「只要」應與「就」配對；「只有」才與「才」配對。"
+        }
+      ]
+    },
+    {
+      "questionNumber": 50,
+      "question": "以下哪項是書信的正確格式？",
+      "hint": "書信有固定的格式要求。",
+      "answerOptions": [
+        {
+          "text": "先寫內容，最後才寫稱呼和署名。",
+          "isCorrect": false,
+          "rationale": "書信開頭應先有稱呼。"
+        },
+        {
+          "text": "稱呼要頂格寫，結尾的祝福語可以縮後寫。",
+          "isCorrect": true,
+          "rationale": "稱呼（如「親愛的媽媽：」）要頂格書寫，祝福語（如「祝」）通常縮後兩格，這是書信的基本格式。"
+        },
+        {
+          "text": "署名要寫在最前面。",
+          "isCorrect": false,
+          "rationale": "署名應寫在書信末尾。"
+        },
+        {
+          "text": "日期不需要寫在書信上。",
+          "isCorrect": false,
+          "rationale": "書信需要在末尾寫上日期。"
+        }
+      ]
+    }
+  ]
+}
