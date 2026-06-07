@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { appVersion } from "./version";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "katex/dist/katex.min.css";
@@ -28,7 +29,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} min-h-dvh antialiased bg-gradient-to-b from-sky-50 to-white`}>
         {children}
         <footer className="text-center text-gray-400 text-xs py-6">
-          Revision App v1.0 &nbsp;·&nbsp; Developed by 如意小馬 © 2026
+          Revision App {appVersion} &nbsp;·&nbsp; Developed by 如意小馬 © 2026
         </footer>
       </body>
     </html>
