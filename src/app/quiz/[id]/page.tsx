@@ -349,18 +349,6 @@ export default function QuizPage() {
             })()}
           </div>
           <div className="flex shrink-0 gap-1.5">
-            <button
-              onClick={() => {
-                const displayText = q.question_text.replace(/\[LISTEN\][\s\S]*?\[\/LISTEN\]/, '').trim()
-                speakText(displayText)
-              }}
-              className={`shrink-0 px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
-                isSpeaking ? 'bg-sky-100 text-sky-700 border border-sky-300 animate-pulse' : 'bg-gray-100 text-gray-500 hover:bg-sky-50 hover:text-sky-700'
-              }`}
-              title="聆聽（普通話）"
-            >
-              🔊
-            </button>
             {q.hint && (
               <button
                 onClick={() => setShowHint(!showHint)}
