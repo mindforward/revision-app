@@ -1,7 +1,7 @@
 'use client'
 
 import { useParams, useRouter } from 'next/navigation'
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState, useCallback, useRef } from 'react'
 import { supabase, QuestionWithOptions, QuizBank } from '@/lib/supabase'
 import MathText from '@/components/Math'
 
@@ -28,6 +28,7 @@ export default function QuizPage() {
   const [showHint, setShowHint] = useState(false)
   const [isSpeaking, setIsSpeaking] = useState(false)
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([])
+  const audioRef = useRef<HTMLAudioElement>(null)
 
   // Load voices on mount (iOS needs async loading)
   useEffect(() => {
@@ -310,8 +311,20 @@ export default function QuizPage() {
                 <>
                   {listenMatch && (
                     <div className="mb-4 p-4 bg-sky-50 border border-sky-200 rounded-xl text-center">
+                      <audio
+                        ref={audioRef}
+                        src={`/images/b/pth_lsn_${q.question_number}.mp3`}
+                        preload="none"
+                      />
                       <button
-                        onClick={() => speakText(listenMatch[1])}
+                        onClick={() => {
+                          if (audioRef.current) {
+                            audioRef.current.play().catch(() => {
+                              // Fallback: if MP3 fails, use SpeechSynthesis
+                              speakText(listenMatch[1]);
+                            });
+                          }
+                        }}
                         className={`inline-flex items-center gap-2 px-6 py-3 rounded-xl text-base font-semibold transition-all ${
                           isSpeaking ? 'bg-sky-500 text-white animate-pulse' : 'bg-sky-600 text-white hover:bg-sky-700'
                         }`}
