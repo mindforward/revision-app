@@ -279,8 +279,8 @@ export default function QuizPage() {
           <div className="flex-1">
             {/* Check for [LISTEN]...[/LISTEN] hidden audio content */}
             {(() => {
-              const listenMatch = q.question_text.match(/\[LISTEN\](.*?)\[\/LISTEN\]/s)
-              const displayText = q.question_text.replace(/\[LISTEN\].*?\[\/LISTEN\]/s, '').trim()
+              const listenMatch = q.question_text.match(/\[LISTEN\]([\s\S]*?)\[\/LISTEN\]/)
+              const displayText = q.question_text.replace(/\[LISTEN\][\s\S]*?\[\/LISTEN\]/, '').trim()
               return (
                 <>
                   {listenMatch && (
