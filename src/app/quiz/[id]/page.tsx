@@ -307,13 +307,15 @@ export default function QuizPage() {
             {(() => {
               const listenMatch = q.question_text.match(/\[LISTEN\]([\s\S]*?)\[\/LISTEN\]/)
               const readMatch = q.question_text.match(/\[READ\]([\s\S]*?)\[\/READ\]/)
+              // Treat [READ] the same as [LISTEN]: play audio, hide text
+              const effectiveListen = listenMatch || readMatch
               const displayText = q.question_text
                 .replace(/\[LISTEN\][\s\S]*?\[\/LISTEN\]/, '')
                 .replace(/\[READ\][\s\S]*?\[\/READ\]/, '')
                 .trim()
               return (
                 <>
-                  {listenMatch && (
+                  {effectiveListen && (
                     <div className="mb-4 p-4 bg-sky-50 border border-sky-200 rounded-xl text-center">
                       <audio
                         ref={audioRef}
@@ -324,7 +326,7 @@ export default function QuizPage() {
                         onClick={() => {
                           if (audioRef.current) {
                             audioRef.current.play().catch(() => {
-                              speakText(listenMatch[1]);
+                              speakText(effectiveListen[1]);
                             });
                           }
                         }}
@@ -335,12 +337,6 @@ export default function QuizPage() {
                         <span>{isSpeaking ? '🔊 播放中...' : '🎧 播放聆聽內容'}</span>
                       </button>
                       <p className="text-xs text-sky-600 mt-2">👆 按上面按鈕聆聽內容，然後回答問題</p>
-                    </div>
-                  )}
-                  {readMatch && (
-                    <div className="mb-4 p-4 bg-gray-50 border border-gray-200 rounded-xl text-sm text-gray-700 leading-relaxed">
-                      <p className="text-xs text-gray-400 mb-2 font-semibold">📖 參考原文：</p>
-                      <p><MathText text={readMatch[1]} /></p>
                     </div>
                   )}
                   <p className="text-gray-800 text-xl leading-relaxed"><MathText text={displayText} /></p>
