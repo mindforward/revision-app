@@ -27,6 +27,20 @@ export default function QuizPage() {
   const [revealed, setRevealed] = useState(false)
   const [showHint, setShowHint] = useState(false)
   const [isSpeaking, setIsSpeaking] = useState(false)
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([])
+
+  // Load voices on mount (iOS needs async loading)
+  useEffect(() => {
+    if ('speechSynthesis' in window) {
+      const loadVoices = () => {
+        const v = window.speechSynthesis.getVoices()
+        if (v.length > 0) setVoices(v)
+      }
+      loadVoices()
+      window.speechSynthesis.onvoiceschanged = loadVoices
+      return () => { window.speechSynthesis.onvoiceschanged = null }
+    }
+  }, [])
 
   useEffect(() => {
     const id = params.id as string
@@ -109,15 +123,26 @@ export default function QuizPage() {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel()
       const utterance = new SpeechSynthesisUtterance(text)
-      utterance.lang = 'zh-CN'
-      utterance.rate = 0.9
-      utterance.pitch = 1.0
+      utterance.rate = 0.85
+
+      // Explicitly find a Putonghua voice (exclude Cantonese zh-HK/zh-yue)
+      const putonghuaVoice = voices.find(v =>
+        v.lang.startsWith('zh-CN') || v.lang === 'zh-Hans-CN' || v.lang === 'zh-Hans'
+      )
+      if (putonghuaVoice) {
+        utterance.voice = putonghuaVoice
+        utterance.lang = putonghuaVoice.lang
+      } else {
+        // Fallback: force zh-CN (but this can default to Cantonese on iPad HK)
+        utterance.lang = 'zh-CN'
+      }
+
       utterance.onstart = () => setIsSpeaking(true)
       utterance.onend = () => setIsSpeaking(false)
       utterance.onerror = () => setIsSpeaking(false)
       window.speechSynthesis.speak(utterance)
     }
-  }, [])
+  }, [voices])
 
   // Show start screen
   if (!started) {
