@@ -276,10 +276,37 @@ export default function QuizPage() {
       <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 max-w-lg w-full">
         {/* Question text + Hint + Speak buttons */}
         <div className="flex items-start justify-between gap-2 mb-6">
-          <p className="text-gray-800 text-xl leading-relaxed"><MathText text={q.question_text} /></p>
+          <div className="flex-1">
+            {/* Check for [LISTEN]...[/LISTEN] hidden audio content */}
+            {(() => {
+              const listenMatch = q.question_text.match(/\[LISTEN\](.*?)\[\/LISTEN\]/s)
+              const displayText = q.question_text.replace(/\[LISTEN\].*?\[\/LISTEN\]/s, '').trim()
+              return (
+                <>
+                  {listenMatch && (
+                    <div className="mb-4 p-4 bg-sky-50 border border-sky-200 rounded-xl text-center">
+                      <button
+                        onClick={() => speakText(listenMatch[1])}
+                        className={`inline-flex items-center gap-2 px-6 py-3 rounded-xl text-base font-semibold transition-all ${
+                          isSpeaking ? 'bg-sky-500 text-white animate-pulse' : 'bg-sky-600 text-white hover:bg-sky-700'
+                        }`}
+                      >
+                        <span>{isSpeaking ? '🔊 播放中...' : '🎧 播放聆聽內容'}</span>
+                      </button>
+                      <p className="text-xs text-sky-600 mt-2">👆 按上面按鈕聆聽內容，然後回答問題</p>
+                    </div>
+                  )}
+                  <p className="text-gray-800 text-xl leading-relaxed"><MathText text={displayText} /></p>
+                </>
+              )
+            })()}
+          </div>
           <div className="flex shrink-0 gap-1.5">
             <button
-              onClick={() => speakText(q.question_text.replace(/\$.*?\$/g, '').trim())}
+              onClick={() => {
+                const displayText = q.question_text.replace(/\[LISTEN\].*?\[\/LISTEN\]/s, '').trim()
+                speakText(displayText)
+              }}
               className={`shrink-0 px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
                 isSpeaking ? 'bg-sky-100 text-sky-700 border border-sky-300 animate-pulse' : 'bg-gray-100 text-gray-500 hover:bg-sky-50 hover:text-sky-700'
               }`}
