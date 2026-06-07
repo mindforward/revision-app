@@ -26,6 +26,7 @@ export default function QuizPage() {
   const [started, setStarted] = useState(false)
   const [revealed, setRevealed] = useState(false)
   const [showHint, setShowHint] = useState(false)
+  const [isSpeaking, setIsSpeaking] = useState(false)
 
   useEffect(() => {
     const id = params.id as string
@@ -102,6 +103,21 @@ export default function QuizPage() {
   }
 
   const correctCount = answers.filter(a => a.isCorrect).length
+
+  // Speech synthesis for Putonghua
+  const speakText = useCallback((text: string) => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel()
+      const utterance = new SpeechSynthesisUtterance(text)
+      utterance.lang = 'zh-CN'
+      utterance.rate = 0.9
+      utterance.pitch = 1.0
+      utterance.onstart = () => setIsSpeaking(true)
+      utterance.onend = () => setIsSpeaking(false)
+      utterance.onerror = () => setIsSpeaking(false)
+      window.speechSynthesis.speak(utterance)
+    }
+  }, [])
 
   // Show start screen
   if (!started) {
@@ -258,20 +274,31 @@ export default function QuizPage() {
 
       {/* Question */}
       <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 max-w-lg w-full">
-        {/* Question text + Hint button */}
-        <div className="flex items-start justify-between gap-3 mb-6">
+        {/* Question text + Hint + Speak buttons */}
+        <div className="flex items-start justify-between gap-2 mb-6">
           <p className="text-gray-800 text-xl leading-relaxed"><MathText text={q.question_text} /></p>
-          {q.hint && (
+          <div className="flex shrink-0 gap-1.5">
             <button
-              onClick={() => setShowHint(!showHint)}
+              onClick={() => speakText(q.question_text.replace(/\$.*?\$/g, '').trim())}
               className={`shrink-0 px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
-                showHint ? 'bg-amber-100 text-amber-800 border border-amber-300' : 'bg-gray-100 text-gray-500 hover:bg-amber-50 hover:text-amber-700'
+                isSpeaking ? 'bg-sky-100 text-sky-700 border border-sky-300 animate-pulse' : 'bg-gray-100 text-gray-500 hover:bg-sky-50 hover:text-sky-700'
               }`}
-              title="解說"
+              title="聆聽（普通話）"
             >
-              💡
+              🔊
             </button>
-          )}
+            {q.hint && (
+              <button
+                onClick={() => setShowHint(!showHint)}
+                className={`shrink-0 px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+                  showHint ? 'bg-amber-100 text-amber-800 border border-amber-300' : 'bg-gray-100 text-gray-500 hover:bg-amber-50 hover:text-amber-700'
+                }`}
+                title="解說"
+              >
+                💡
+              </button>
+            )}
+          </div>
         </div>
 
         {showHint && q.hint && (
