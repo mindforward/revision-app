@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="500" height="220">
+  <rect width="500" height="220" fill="white" rx="8"/>
+  <text x="250" y="30" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="18" fill="#1e375a" font-weight="bold">🥁 節奏 Rhythm</text>
+  
+  <!-- Rhythm notation example -->
+  <text x="250" y="65" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="13" fill="#1e375a">Patterns of sound beats and silences in music</text>
+  
+  <!-- Musical note example -->
+  <g transform="translate(50, 90)">
+    <text x="0" y="30" text-anchor="middle" font-size="14" fill="#1e375a">四分音符</text>
+    <text x="100" y="30" text-anchor="middle" font-size="14" fill="#1e375a">八分音符</text>
+    <text x="200" y="30" text-anchor="middle" font-size="14" fill="#1e375a">十六分音符</text>
+    <text x="320" y="30" text-anchor="middle" font-size="14" fill="#1e375a">休止符</text>
+  </g>
+  
+  <g transform="translate(50, 130)">
+    <text x="40" y="20" text-anchor="middle" font-size="30">♩</text>
+    <text x="140" y="20" text-anchor="middle" font-size="30">♪</text>
+    <text x="220" y="10" text-anchor="middle" font-size="24">♬</text>
+    <text x="360" y="20" text-anchor="middle" font-size="30">𝄽</text>
+  </g>
+  
+  <text x="250" y="195" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="13" fill="#00abe4">例：ta ta ti-ti ta ⏺ 節奏模式 = 聲音與靜止的排列</text>
+</svg>

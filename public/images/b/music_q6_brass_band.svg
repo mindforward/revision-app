@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" width="500" height="280">
+  <rect width="500" height="280" fill="white" rx="8"/>
+  <text x="250" y="30" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="18" fill="#1e375a" font-weight="bold">🎺 銅管樂團 Brass Band</text>
+  
+  <!-- Instruments row -->
+  <g transform="translate(40, 60)">
+    <rect x="0" y="0" width="90" height="100" rx="8" fill="#e8f6fe" stroke="#1e375a" stroke-width="2"/>
+    <text x="45" y="45" text-anchor="middle" font-size="36">🎺</text>
+    <text x="45" y="75" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="12" fill="#1e375a">Trumpet</text>
+    <text x="45" y="90" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="10" fill="#00abe4">小號</text>
+  </g>
+  <g transform="translate(145, 60)">
+    <rect x="0" y="0" width="90" height="100" rx="8" fill="#d0ebf9" stroke="#1e375a" stroke-width="2"/>
+    <text x="45" y="45" text-anchor="middle" font-size="36">📯</text>
+    <text x="45" y="75" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="12" fill="#1e375a">Horn</text>
+    <text x="45" y="90" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="10" fill="#00abe4">圓號</text>
+  </g>
+  <g transform="translate(250, 60)">
+    <rect x="0" y="0" width="90" height="100" rx="8" fill="#b8def5" stroke="#1e375a" stroke-width="2"/>
+    <text x="45" y="45" text-anchor="middle" font-size="36">🎵</text>
+    <text x="45" y="75" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="12" fill="#1e375a">Trombone</text>
+    <text x="45" y="90" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="10" fill="#00abe4">長號</text>
+  </g>
+  <g transform="translate(355, 60)">
+    <rect x="0" y="0" width="90" height="100" rx="8" fill="#a8d4f0" stroke="#1e375a" stroke-width="2"/>
+    <text x="45" y="45" text-anchor="middle" font-size="36">🎶</text>
+    <text x="45" y="75" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="12" fill="#1e375a">Tuba</text>
+    <text x="45" y="90" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="10" fill="#00abe4">大號</text>
+  </g>
+  
+  <!-- Also percussion -->
+  <text x="250" y="195" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="14" fill="#1e375a">+ 敲擊樂器 Percussion Section</text>
+  <g transform="translate(150, 210)">
+    <text x="0" y="20" text-anchor="middle" font-size="24">🥁</text>
+    <text x="60" y="20" text-anchor="middle" font-size="24">🔔</text>
+    <text x="120" y="20" text-anchor="middle" font-size="24">🪘</text>
+    <text x="200" y="20" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="11" fill="#1e375a">Snare drum, Cymbals</text>
+  </g>
+</svg>

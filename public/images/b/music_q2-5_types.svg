@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+  <rect width="600" height="350" fill="white" rx="8"/>
+  
+  <text x="300" y="30" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="18" fill="#1e375a" font-weight="bold">合奏類型 Ensemble Types</text>
+  
+  <!-- Duet -->
+  <g transform="translate(30, 60)">
+    <rect x="0" y="0" width="120" height="120" rx="10" fill="#e8f6fe" stroke="#1e375a" stroke-width="2"/>
+    <text x="35" y="40" text-anchor="middle" font-size="30">🎻</text>
+    <text x="85" y="40" text-anchor="middle" font-size="30">🎻</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="16" fill="#00abe4" font-weight="bold">Duet</text>
+    <text x="60" y="100" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="13" fill="#1e375a">二重奏 2</text>
+  </g>
+  
+  <!-- Trio -->
+  <g transform="translate(170, 60)">
+    <rect x="0" y="0" width="120" height="120" rx="10" fill="#d0ebf9" stroke="#1e375a" stroke-width="2"/>
+    <text x="25" y="40" text-anchor="middle" font-size="30">🎻</text>
+    <text x="60" y="40" text-anchor="middle" font-size="30">🎺</text>
+    <text x="95" y="40" text-anchor="middle" font-size="30">🎹</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="16" fill="#00abe4" font-weight="bold">Trio</text>
+    <text x="60" y="100" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="13" fill="#1e375a">三重奏 3</text>
+  </g>
+  
+  <!-- Quartet -->
+  <g transform="translate(310, 60)">
+    <rect x="0" y="0" width="120" height="120" rx="10" fill="#b8def5" stroke="#1e375a" stroke-width="2"/>
+    <text x="20" y="35" text-anchor="middle" font-size="28">🎻</text>
+    <text x="55" y="35" text-anchor="middle" font-size="28">🎻</text>
+    <text x="20" y="68" text-anchor="middle" font-size="28">🎻</text>
+    <text x="55" y="68" text-anchor="middle" font-size="28">🎻</text>
+    <text x="60" y="95" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="16" fill="#00abe4" font-weight="bold">Quartet</text>
+    <text x="60" y="115" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="13" fill="#1e375a">四重奏 4</text>
+  </g>
+  
+  <!-- Quintet -->
+  <g transform="translate(450, 60)">
+    <rect x="0" y="0" width="120" height="120" rx="10" fill="#a8d4f0" stroke="#1e375a" stroke-width="2"/>
+    <text x="15" y="35" text-anchor="middle" font-size="26">🎷</text>
+    <text x="45" y="35" text-anchor="middle" font-size="26">🎺</text>
+    <text x="75" y="35" text-anchor="middle" font-size="26">🎸</text>
+    <text x="30" y="68" text-anchor="middle" font-size="26">🎻</text>
+    <text x="65" y="68" text-anchor="middle" font-size="26">🥁</text>
+    <text x="60" y="95" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="16" fill="#00abe4" font-weight="bold">Quintet</text>
+    <text x="60" y="115" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="13" fill="#1e375a">五重奏 5</text>
+  </g>
+  
+  <!-- Order -->
+  <text x="60" y="210" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="12" fill="#1e375a">Solo（獨奏）1</text>
+  <text x="100" y="210" text-anchor="middle" font-size="20" fill="#00abe4">→</text>
+  <text x="180" y="210" text-anchor="middle" font-size="20" fill="#00abe4">→</text>
+  <text x="320" y="210" text-anchor="middle" font-size="20" fill="#00abe4">→</text>
+  <text x="460" y="210" text-anchor="middle" font-size="20" fill="#00abe4">→</text>
+  <text x="540" y="210" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="12" fill="#1e375a">更多樂器 More</text>
+  
+  <!-- Chamber music examples -->
+  <text x="300" y="260" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="13" fill="#1e375a">著名室樂作品 Famous Chamber Music:</text>
+  <text x="300" y="285" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="12" fill="#00abe4">Mozart Duet → Beethoven Trio → Haydn String Quartet</text>
+  
+  <text x="300" y="325" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="11" fill="#666">每個數字代表樂器數量 Each number = instrument count</text>
+</svg>

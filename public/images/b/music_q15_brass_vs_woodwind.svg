@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="500" height="220">
+  <rect width="500" height="220" fill="white" rx="8"/>
+  
+  <!-- Brass -->
+  <g transform="translate(30, 40)">
+    <rect x="0" y="0" width="200" height="140" rx="10" fill="#d0ebf9" stroke="#00abe4" stroke-width="2.5"/>
+    <text x="100" y="30" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="16" fill="#1e375a" font-weight="bold">🎺 銅管 Brass</text>
+    <text x="100" y="60" text-anchor="middle" font-size="13" fill="#1e375a">✅ Trumpet（小號）</text>
+    <text x="100" y="80" text-anchor="middle" font-size="13" fill="#1e375a">✅ Horn（圓號）</text>
+    <text x="100" y="100" text-anchor="middle" font-size="13" fill="#1e375a">✅ Trombone（長號）</text>
+    <text x="100" y="120" text-anchor="middle" font-size="13" fill="#1e375a">✅ Tuba（大號）</text>
+  </g>
+  
+  <!-- Woodwind -->
+  <g transform="translate(260, 40)">
+    <rect x="0" y="0" width="200" height="140" rx="10" fill="#f0e8c4" stroke="#e74c3c" stroke-width="2.5"/>
+    <text x="100" y="30" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="16" fill="#1e375a" font-weight="bold">🎵 木管 Woodwind</text>
+    <text x="100" y="60" text-anchor="middle" font-size="13" fill="#1e375a">✅ Flute（長笛）</text>
+    <text x="100" y="80" text-anchor="middle" font-size="13" fill="#1e375a">✅ Clarinet（單簧管）</text>
+    <text x="100" y="100" text-anchor="middle" font-size="13" fill="#1e375a">✅ Oboe（雙簧管）</text>
+    <text x="100" y="120" text-anchor="middle" font-size="13" fill="#1e375a">✅ Bassoon（巴松管）</text>
+  </g>
+  
+  <text x="250" y="210" text-anchor="middle" font-family="Noto Sans SC, Arial" font-size="13" fill="#e74c3c">Flute 不是銅管樂器！它是木管樂器。</text>
+</svg>
